@@ -20,7 +20,7 @@ if(empty($error) && empty($message)){
 
 if(empty($error)){
 
-    $to = 'awais@usbcinteriors.com';
+    $to = 'enquiry@usbcinteriors.com';
     $subject = 'Contact Form Submission';
     $body = '<b>User Details : </b><br/>';
     $body .= 'Name : '. $name.'<br/>';
