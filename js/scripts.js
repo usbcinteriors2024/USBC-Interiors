@@ -13,17 +13,19 @@ $(function () {
     wind.on("scroll", function () {
 
         var bodyScroll = wind.scrollTop(),
+            header = $(".header"),
             navbar = $(".navbar.change"),
             logo = $(".navbar.change .logo> img");
 
-        if (bodyScroll > 300) {
+        if (bodyScroll > 60) {
 
+            header.addClass("active");
             navbar.addClass("nav-scroll");
             logo.attr('src', 'img/logo-dark.png');
             $('.main-social-icons').addClass("hide-social");
 
         } else {
-
+            header.removeClass("active");
             navbar.removeClass("nav-scroll");
             logo.attr('src', 'img/logo-light.png');
             $('.main-social-icons').removeClass("hide-social");
@@ -260,6 +262,36 @@ $(function () {
             }
         ]
     });
+    $('.blog-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: '.testimonials .prev',
+        nextArrow: '.testimonials .next',
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 12000,
+        responsive: [
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
 
     $('.team .team-container').slick({
         slidesToShow: 3,
@@ -359,8 +391,15 @@ $(function () {
     $(".blog-grid .bg-pattern").css("height", blgImg);
 
 });
+/* ===============================  Preloader  =============================== */
 
+window.addEventListener("load", function () {
+    document.querySelector(".js-page-loader").classList.add("fade-out");
+    setTimeout(() => {
+        document.querySelector(".js-page-loader").style.display = "none";
 
+    }, 3000);
+})
 /* ===============================  Wow Animation  =============================== */
 
 wow = new WOW({
