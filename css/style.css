@@ -67,13 +67,12 @@ body {
     padding: 20px !important;
     text-align: center;
   }
+  .best-interior-page .playfont {
+    font-size: 30px !important;
+  }
 
   .home-banner .banner-form h3 {
     font-size: 20px !important;
-  }
-  .bg-img.valign {
-    text-shadow: 0px 1px black;
-    min-height: 300px !important;
   }
   .airport-page .portfolio .gallery .items .item-img {
     height: 250px !important;
@@ -85,6 +84,7 @@ body {
   .contact .form {
     padding: 40px 0 !important;
   }
+
   .grid-container .grid-item:not(last-child) {
     margin-bottom: 20px;
   }
@@ -124,17 +124,22 @@ body {
     padding-right: 20px;
     padding-top: 20px !important;
   }
+  .blog-pg.single .post .main-img .simpleParallax {
+    height: 50vh !important;
+  }
 }
 @media screen and (max-width: 576px) {
   body .nav-scroll {
-    top: -3px !important;
+    top: -4px !important;
   }
   body .navbar {
     top: 75px;
-  }  .bg-video-wrap{min-height:115vh}
-  .bg-video-wrap video{
+  }
+  .bg-video-wrap {
+    min-height: 115vh;
+  }
+  .bg-video-wrap video {
     height: 110vh;
-
   }
 }
 .dropdown-toggle::after {
@@ -200,13 +205,16 @@ body {
   width: 100%;
   background-color: white;
 }
-
+.grid-container .grid-item .img a {
+  width: 100%;
+  line-height: normal;
+}
 @media screen and (min-width: 768px) {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     /* background-color: #2196F3; */
-    padding: 10px;
+    /* padding: 10px; */
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
@@ -1729,7 +1737,7 @@ body {
   width: 100%;
   background: transparent;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  z-index: 999;
+  z-index: 9999;
   padding: 10px;
   /* min-height: 80px; */
 }
@@ -2363,6 +2371,7 @@ body {
   text-transform: uppercase;
   position: relative;
   z-index: 1;
+  line-height: 1.2;
 }
 .pages-header .cont .path {
   color: #fff;
@@ -2554,6 +2563,9 @@ body {
   height: 100%;
 
   opacity: 0.3;
+}
+.intro-section .box img {
+  height: 350px;
 }
 
 .intro-section .item h6 {
@@ -2811,6 +2823,9 @@ body {
 .portfolio .gallery {
   height: fit-content !important;
 }
+.clients-logo .gallery .items .item-img {
+  height: 200px !important;
+}
 .portfolio .gallery .items .item-img {
   overflow: hidden;
   position: relative;
@@ -2889,7 +2904,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.portfolio .gallery .items .info span {
+.portfolio .gallery .items .info a span {
   color: #777;
   font-size: 12px;
   text-transform: uppercase;
@@ -3681,7 +3696,6 @@ body {
   padding: 50px 40px 40px;
   border: 10px solid #f7f7f7;
   border-top: 0;
-  height: 100%;
   position: relative;
 }
 .testimonials.grid .item .cont:after,
@@ -3716,8 +3730,8 @@ body {
   margin: 10px 0;
 }
 .testimonials.grid .item .info {
-  margin-top: 30px;
-  padding-left: 30px;
+  /* margin-top: 30px;
+  padding-left: 30px; */
   position: relative;
 }
 .testimonials.grid .item .info:after {
@@ -3826,6 +3840,7 @@ body {
 .blog-grid .item .post-img .img {
   overflow: hidden;
 }
+
 .blog-grid .item .post-img:hover img {
   -webkit-transform: scale(1.1, 1.1);
   -ms-transform: scale(1.1, 1.1);
@@ -3845,7 +3860,7 @@ body {
   background: #fff;
 }
 .blog-grid .item .info {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .blog-grid .item .info a {
   color: #777;
@@ -3869,9 +3884,9 @@ body {
 .blog-grid .item h5 {
   font-size: 17px;
   line-height: 1.7;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
-.blog-grid .item .more {
+.blog-grid .item .more span {
   color: #b19777;
   font-size: 16px;
   text-transform: uppercase;
@@ -3932,9 +3947,9 @@ body {
   letter-spacing: 2px;
 }
 
-.blog-pg .posts .item .content {
+/* .blog-pg .posts .item .content {
   padding-top: 25px;
-}
+} */
 .blog-pg .posts .item .content .tags {
   margin-bottom: 10px;
 }
@@ -3944,6 +3959,9 @@ body {
   color: #b19777;
   padding-right: 20px;
   position: relative;
+}
+.blog-pg h3 {
+  line-height: 1.2;
 }
 .blog-pg .posts .item .content .tags a:after {
   content: "";
@@ -3976,6 +3994,7 @@ body {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  width: fit-content;
 }
 .blog-pg .posts .item .content .more:after {
   content: "";
@@ -4025,6 +4044,7 @@ body {
 }
 .blog-pg.single .post .title-head h2 {
   margin-bottom: 10px;
+  line-height: 1.2;
 }
 .blog-pg.single .post .title-head a {
   font-size: 12px;
@@ -4446,7 +4466,9 @@ body {
 .main-footer .sub-footer p {
   font-size: 13px;
 }
-
+.projdtal .justified-gallery a {
+  background-color: red;
+}
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 1280px) {
@@ -4719,14 +4741,19 @@ body {
 }
 /* @media screen and (max-width: 400px) {
   .nav-scroll {
-    top: -82px !important;
+    top: -82px !import.ant;
   }
 } */
 @media screen and (max-width: 767px) {
   .top-strip .email {
     gap: 5px;
   }
- 
+  .intro-section .box img {
+    height: 260px !important;
+  }
+  .portfolio .gallery .items .item-img {
+    height: 200px;
+  }
   .home-banner .caption h1 {
     font-size: 26px;
   }
@@ -4739,8 +4766,11 @@ body {
   .blog-pg .posts .item .content h4 {
     font-size: 20px !important;
   }
-  .portfolio .gallery .items .item-img {
+  .clients-logo .gallery .items .item-img {
     height: 114px;
+  }
+  .clients-logo .gallery.twsty .three-column {
+    width: 95% !important;
   }
   .main-footer .sub-footer {
     margin-top: 20px;
@@ -4756,7 +4786,7 @@ body {
   .bg-img.valign1 {
     display: flex;
     justify-content: center;
-    padding: 14rem 2rem;
+    /* padding: 14rem 2rem; */
   }
   .section-head {
     margin-bottom: 0px;
@@ -4857,7 +4887,6 @@ body {
   }
   .pages-header .cont h1 {
     font-size: 30px;
-    line-height: normal;
   }
   .slider .caption.center h1 {
     font-size: 25px;
@@ -4971,9 +5000,12 @@ body {
     height: 40vh;
     min-height: 250px;
   }
-  .portfolio .gallery.twsty .three-column {
-    width: 95% !important;
+  .customClassDiv img {
+    height: 400px;
   }
+  /* .portfolio .gallery.twsty .three-column {
+    width: 95% !important;
+  } */
   .blog-pg .posts .item .content {
     position: relative;
   }
@@ -5210,12 +5242,13 @@ img {
 
 .bg-img.valign {
   background-size: cover;
-  /* padding: 13rem 7rem 23rem 7rem; */
-  min-height: 400px;
+  padding: 230px 0 150px;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  text-shadow: 0px 1px black;
+
   align-items: center;
 }
 
@@ -5240,6 +5273,7 @@ img.CustomImg {
   margin: auto;
   padding: 25px 0px 0px 0px;
   font-size: xx-large;
+  line-height: normal;
 }
 
 .open-button:hover {
@@ -5347,12 +5381,20 @@ img.CustomImg {
 .faq .card:not(:last-child) {
   margin-bottom: 10px;
 }
-.faq .card-header a {
+.faq .accordion .card-header a {
   width: 100%;
   position: relative;
+  text-transform: capitalize !important;
+  text-align: left;
+  letter-spacing: normal !important;
+  margin: 0 !important;
 }
-.faq .card-header p {
+.faq .accordion .card-header p {
   padding-right: 10px;
+  margin: 0 !important;
+}
+.faq .accordion {
+  text-align: left;
 }
 .faq .card-header strong font {
   position: absolute;
@@ -5365,10 +5407,29 @@ img.CustomImg {
 .projects-page .section-padding {
   padding: 30px 0;
 }
+.best-interior-page .playfont {
+  font-size: 40px;
+}
+.projects-page .sub-title {
+  font-size: 30px;
+  line-height: normal;
+}
+
 @media (max-width: 991px) {
   .about-page .about.section-padding {
     padding: 30px 0;
-  } .home-banner .caption {
+  }
+  .projects-page .sub-title {
+    font-size: 20px;
+  }
+  
+  .intro-section .box img {
+    height: 300px;
+  }
+  .bg-img.valign {
+    padding: 100px 0 !important;
+  }
+  .home-banner .caption {
     text-align: center;
   }
   .blog-pg .posts .item .content h4 {
@@ -5378,9 +5439,15 @@ img.CustomImg {
     font-size: 30px !important;
   }
 }
+.best-interior-page h3.playfont {
+  margin-bottom: 10px;
+}
 @media (max-width: 1199px) {
   .navbar .logo img {
     width: 100px;
+  }
+  .best-interior-page .playfont {
+    font-size: 40px;
   }
 }
 
@@ -5420,3 +5487,8 @@ img.CustomImg {
     transform: rotate(360deg);
   }
 }
+
+.interior-page .containerbox {
+  padding: 0;
+}
+

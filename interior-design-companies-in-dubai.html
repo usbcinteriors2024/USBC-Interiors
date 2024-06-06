@@ -215,7 +215,7 @@
 
     .containerbox {
       position: relative;
-      width: 1160px;
+      max-width: 1160px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -297,7 +297,10 @@
       align-items: flex-end;
       box-sizing: border-box;
     }
-
+    .containerbox .box .content div{
+      background-color: red;
+      height: fit-content;
+    }
     .containerbox .box .content h2 {
       color: #fff;
       transition: 0.5s;
@@ -391,171 +394,173 @@
 
   <div class="mouse-cursor cursor-outer" id=""></div>
   <div class="mouse-cursor cursor-inner"></div>
-  
+
   <!-- ==================== End progress-scroll-button ==================== -->
- <!-- ==================== Start preloader ==================== -->
+  <!-- ==================== Start preloader ==================== -->
 
 
-<div class="preloader js-page-loader">
-  <div></div>
-</div>
+  <div class="preloader js-page-loader">
+    <div></div>
+  </div>
   <!-- ==================== End preloader ==================== -->
- <section id="main-bod">
+  <section id="main-bod">
 
 
-    <!-- ==================== Start Navbar ==================== -->
-    <div class="top-strip">
-      <div class="email">
-        <p><i class="fa fa-envelope" style="color:white;"></i> <a href="mailto:enquiry@usbcinteriors.com"
-            style="color:white;">enquiry@usbcinteriors.com</a></p>
-        <p><i class="fa fa-phone" style="color:white;"></i> <a href="tel:+971 4 552 5858" style="color:white;">+971
-            4
-            552 5858</a></p>
-      </div>
-      <div class="icons">
-        <a href="https://www.instagram.com/usbcinteriors/" target="blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/company/usbc-interiors-urban-science-building-contracting"><i
-            class="fab fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/usbcinteriors" target="blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com/USBCInteriors/" target="blank"><i class="fab fa-twitter"></i></a>
+ <!-- ==================== Start Navbar ==================== -->
+ <div class="top-strip">
+  <div class="email">
+    <p><i class="fa fa-envelope" style="color:white;"></i> <a href="mailto:enquiry@usbcinteriors.com"
+        style="color:white;">enquiry@usbcinteriors.com</a></p>
+    <p><i class="fa fa-phone" style="color:white;"></i> <a href="tel:+971 4 552 5858" style="color:white;">+971
+        4
+        552 5858</a></p>
+  </div>
+  <div class="icons">
+    <a href="https://www.instagram.com/usbcinteriors/" target="blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/usbc-interiors-urban-science-building-contracting"><i
+        class="fab fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/usbcinteriors" target="blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/USBCInteriors/" target="blank"><i class="fab fa-twitter"></i></a>
 
-      </div>
+  </div>
 
+</div>
+<nav class="navbar change navbar-expand-xl">
+
+  <div class="container">
+    <!-- Logo -->
+    <a class="logo" href="index.html">
+      <img src="img/logo-light.png" alt="logo" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon-bar"><i class="fas fa-bars"></i></span>
+    </button>
+
+    <!-- navbar links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">New Arrival</a>
+
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/furniture-manufacturers-dubai">Custom
+              Furnitures</a>
+
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/carpet-suppliers-in-dubai">Floor
+              Carpets</a>
+
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/marble-suppliers-in-uae">Marbles</a>
+
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/paints-companies-in-dubai">Wall
+              Paints</a>
+
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/leather-suppliers-in-dubai">Leathers</a>
+
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="interior-design-companies-in-dubai.html">Interior Design</a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Our Regional Services </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item"
+              href="https://www.usbcinteriors.com/interior-fit-out-companies-in-abu-dhabi">Interior Fit Out
+              Companies in Abu Dhabi</a>
+            <a class="dropdown-item" href="interior-design-services-dubai.html">Interior Design services in
+              Dubai</a>
+            <a class="dropdown-item" href="interior-design-services-abu-dhabi.html">Interior Design services in
+              Abu
+              Dhabi</a>
+            <a class="dropdown-item" href="interior-design-services-sharjah.html">Interior Design services in
+              Sharjah</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="fitout-authority-approvals-process-dubai.html">Authority Approvals</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Services</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="interior-fitout.html">Interior Fit-out</a>
+            <a class="dropdown-item" href="interior-design-companies-in-dubai.html">Interior Design</a>
+            <a class="dropdown-item" href="villa-renovation.html">Villa Renovation</a>
+            <a class="dropdown-item" href="carpentry.html">Carpentry & Joinery</a>
+            <a class="dropdown-item" href="exhibitions.html">Exhibitions</a>
+            <a class="dropdown-item" href="mep-contractors-in-dubai.html">MEP</a>
+            <a class="dropdown-item" href="it-solutions.html">IT Solutions</a>
+            <a class="dropdown-item" href="pools-landscaping.html">Pools & Landscaping</a>
+            <a class="dropdown-item" href="facility-management.html">Facility Management</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Portfolio</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item"
+              href="https://www.usbcinteriors.com/villa-interior-design-companies-dubai">Villa Contractors in
+              Dubai
+            </a>
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/art-and-gallery-fit-out-company-dubai">Art
+              & Gallery</a>
+            <a class="dropdown-item"
+              href="https://www.usbcinteriors.com/hotel-fit-out-company-in-dubai.html">Hotel</a>
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/healthcare-fit-out-dubai">Health
+              care</a>
+            <a class="dropdown-item" href="https://usbcinteriors.com/restaurant-fit-out-dubai">Restaurants &
+              Cafes</a>
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/school-fit-outs-dubai">Education</a>
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/airport-fitout-dubai">Airport</a>
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/office-fitout">Offices</a>
+            <a class="dropdown-item" href="https://usbcinteriors.com/residential-fit-out-dubai">Residentials</a>
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/mall-fit-out-dubai">Shopping Malls</a>
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/exhibition-fit-out-dubai">Exhibitions</a>
+            <a class="dropdown-item" href="https://www.usbcinteriors.com/mep-companies-in-dubai">MEP Company in
+              Dubai</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="commercial.html">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="supplier.html">Supplier</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
     </div>
-    <nav class="navbar change navbar-expand-xl">
+  </div>
 
-      <div class="container">
-        <!-- Logo -->
-        <a class="logo" href="index.html">
-          <img src="img/logo-light.png" alt="logo" />
-        </a>
+</nav>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-bar"><i class="fas fa-bars"></i></span>
-        </button>
-
-        <!-- navbar links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                aria-expanded="false">New Arrival</a>
-
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/furniture-manufacturers-dubai">Custom
-                  Furnitures</a>
-
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/carpet-suppliers-in-dubai">Floor
-                  Carpets</a>
-
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/marble-suppliers-in-uae">Marbles</a>
-
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/paints-companies-in-dubai">Wall
-                  Paints</a>
-
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/leather-suppliers-in-dubai">Leathers</a>
-
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="interior-design-companies-in-dubai.html">Interior Design</a>
-            </li>
+<!-- ==================== End Navbar ==================== -->
 
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                aria-expanded="false">Our Regional Services </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item"
-                  href="https://www.usbcinteriors.com/interior-fit-out-companies-in-abu-dhabi">Interior Fit Out
-                  Companies in Abu Dhabi</a>
-                <a class="dropdown-item" href="interior-design-services-dubai.html">Interior Design services in
-                  Dubai</a>
-                <a class="dropdown-item" href="interior-design-services-abu-dhabi.html">Interior Design services in
-                  Abu
-                  Dhabi</a>
-                <a class="dropdown-item" href="interior-design-services-sharjah.html">Interior Design services in
-                  Sharjah</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="fitout-authority-approvals-process-dubai.html">Authority Approvals</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                aria-expanded="false">Services</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="interior-fitout.html">Interior Fit-out</a>
-                <a class="dropdown-item" href="interior-design-companies-in-dubai.html">Interior Design</a>
-                <a class="dropdown-item" href="villa-renovation.html">Villa Renovation</a>
-                <a class="dropdown-item" href="carpentry.html">Carpentry & Joinery</a>
-                <a class="dropdown-item" href="exhibitions.html">Exhibitions</a>
-                <a class="dropdown-item" href="mep-contractors-in-dubai.html">MEP</a>
-                <a class="dropdown-item" href="it-solutions.html">IT Solutions</a>
-                <a class="dropdown-item" href="pools-landscaping.html">Pools & Landscaping</a>
-                <a class="dropdown-item" href="facility-management.html">Facility Management</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                aria-expanded="false">Portfolio</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item"
-                  href="https://www.usbcinteriors.com/villa-interior-design-companies-dubai">Villa Contractors in
-                  Dubai
-                </a>
-                <a class="dropdown-item"
-                  href="https://www.usbcinteriors.com/art-and-gallery-fit-out-company-dubai">Art
-                  & Gallery</a>
-                <a class="dropdown-item"
-                  href="https://www.usbcinteriors.com/hotel-fit-out-company-in-dubai.html">Hotel</a>
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/healthcare-fit-out-dubai">Health
-                  care</a>
-                <a class="dropdown-item" href="https://usbcinteriors.com/restaurant-fit-out-dubai">Restaurants &
-                  Cafes</a>
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/school-fit-outs-dubai">Education</a>
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/airport-fitout-dubai">Airport</a>
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/office-fitout">Offices</a>
-                <a class="dropdown-item" href="https://usbcinteriors.com/residential-fit-out-dubai">Residentials</a>
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/mall-fit-out-dubai">Shopping Malls</a>
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/exhibition-fit-out-dubai">Exhibitions</a>
-                <a class="dropdown-item" href="https://www.usbcinteriors.com/mep-companies-in-dubai">MEP Company in
-                  Dubai</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="commercial.html">Projects</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="supplier.html">Supplier</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-    </nav>
-
-    <!-- ==================== End Navbar ==================== -->
+<main class="interior-page">
 
 
 
@@ -568,19 +573,20 @@
 
         <div class="row d-flex justify-content-center customboxxpadding text-center">
           <div class="col-md-12 mx-2">
-  
+
             <div class="caption">
               <h1 data-splitting="" class="words chars splitting" style="--word-total: 3; --char-total: 16"><a
                   style="font-family:century gothic; color: white;"
                   href="https://www.usbcinteriors.com/interior-design-companies-in-dubai"
-                  title="interior design companies in Dubai">Best Interior Design Companies in Dubai 2024 | USBC Interiors
+                  title="interior design companies in Dubai">Best Interior Design Companies in Dubai 2024 | USBC
+                  Interiors
                 </a> </h1>
               <div class="flex flex-column align-items-center my-3 mx-3">
-  
+
                 <button class="open-button" onclick="openForm()">Looking for INTERIOR DESIGN ?</button> <button
                   class="open-button2"><a href="tel:+971 4 552 5858">Call us 0 4 552 5858</a></button>
-  
-  
+
+
               </div>
               <br>
             </div>
@@ -697,1072 +703,1074 @@
     </section>
 
     <!-- ==================== End Services ==================== -->
+<div class="container">
 
+  <br>
+  <h2 class="Containerboxcustomtext">List of 20 best Interior Design Companies in Dubai, UAE</h2>
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> USBC Interiors </h3>
     <br>
-    <h2 class="Containerboxcustomtext">List of 20 best Interior Design Companies in Dubai, UAE</h2>
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> USBC Interiors </h3>
+    <div>
+
+      <img src="/img/usbcinteriors01.webp" alt="interior design companies in dubai">
+
+      <p><br>
+        With more than eight years of expertise in the industry, USBC Interiors is highly qualified and ranked among
+        the best <a href="https://www.usbcinteriors.com/interior-companies-in-dubai"
+          title="interior companies in Dubai"><strong>interior companies in Dubai</strong></a>. Additionally
+        performing interior fit-out work for residences, offices, hotels, restaurants, and villas. They are capable of
+        creating the finest interior design for your bathrooms, kitchens, living rooms, bedrooms, and other areas.
+        Being renowned for our superior design and execution, we are among the <a
+          href="https://www.usbcinteriors.com/interior-design-companies-in-dubai"
+          title="top interior design companies in Dubai "><strong>top interior design firms in Dubai</strong></a>.
+        With our in-house joinery factory located in Al Quoz, Dubai, United Arab Emirates. They can effortlessly
+        create a beautiful synthesis of furniture, design, décor, and mindful space.
+      </p>
       <br>
-      <div>
+      <p>
+        <strong>Why should you go for USBC Interiors?</strong><br><br>
+        USBC interiors came into conception to satisfy their clients demands for high-quality finishes and timely
+        delivery. In order to meet those needs, they set up state-of-the-art joinery workshops with a team of
+        engineers who have extensive experience in building services, including plumbing, electrical, air
+        conditioning, and IT solutions, making sure that no details are overlooked before delivering the finished
+        product to our esteemed clients.
+        Their goal is to provide high-quality projects with cutting-edge and innovative technologies in order to
+        achieve sustainable growth. They are collaborating with all relevant parties to create strong and enduring
+        alliances in order to guarantee that they also realize their objective.
+      </p>
+      <br>
+      <p>
+        <strong>Services Offered by USBC Interiors:</strong><br>
+        - Interior fit-out<br>
+        - Interior Design<br>
+        - Architectural Design<br>
+        - MEP<br>
+        - Renovation and maintenance<br>
+        - Carpentry and Joinery<br>
+        -Custom Furnitures<br>
+        -Home Automation<br>
+        - Pools and Landscaping<br>
+      </p>
+      <br>
+      <p>
+        <a href="https://www.usbcinteriors.com/commercial"><strong> Succesfull Projects </strong></a><br>
+        - Emirates Development Bank<br>
+        - Dubai Airport<br>
+        - Movenpick Hotel-Grazer<br>
+        - Coterra Cafe<br>
+        - Etihad Rail Office<br>
+      </p>
+      <br>
 
-        <img src="/img/usbcinteriors01.webp" alt="interior design companies in dubai">
-
-        <p><br>
-          With more than eight years of expertise in the industry, USBC Interiors is highly qualified and ranked among
-          the best <a href="https://www.usbcinteriors.com/interior-companies-in-dubai"
-            title="interior companies in Dubai"><strong>interior companies in Dubai</strong></a>. Additionally
-          performing interior fit-out work for residences, offices, hotels, restaurants, and villas. They are capable of
-          creating the finest interior design for your bathrooms, kitchens, living rooms, bedrooms, and other areas.
-          Being renowned for our superior design and execution, we are among the <a
-            href="https://www.usbcinteriors.com/interior-design-companies-in-dubai"
-            title="top interior design companies in Dubai "><strong>top interior design firms in Dubai</strong></a>.
-          With our in-house joinery factory located in Al Quoz, Dubai, United Arab Emirates. They can effortlessly
-          create a beautiful synthesis of furniture, design, décor, and mindful space.
-        </p>
-        <br>
-        <p>
-          <strong>Why should you go for USBC Interiors?</strong><br><br>
-          USBC interiors came into conception to satisfy their clients demands for high-quality finishes and timely
-          delivery. In order to meet those needs, they set up state-of-the-art joinery workshops with a team of
-          engineers who have extensive experience in building services, including plumbing, electrical, air
-          conditioning, and IT solutions, making sure that no details are overlooked before delivering the finished
-          product to our esteemed clients.
-          Their goal is to provide high-quality projects with cutting-edge and innovative technologies in order to
-          achieve sustainable growth. They are collaborating with all relevant parties to create strong and enduring
-          alliances in order to guarantee that they also realize their objective.
-        </p>
-        <br>
-        <p>
-          <strong>Services Offered by USBC Interiors:</strong><br>
-          - Interior fit-out<br>
-          - Interior Design<br>
-          - Architectural Design<br>
-          - MEP<br>
-          - Renovation and maintenance<br>
-          - Carpentry and Joinery<br>
-          -Custom Furnitures<br>
-          -Home Automation<br>
-          - Pools and Landscaping<br>
-        </p>
-        <br>
-        <p>
-          <a href="https://www.usbcinteriors.com/commercial"><strong> Succesfull Projects </strong></a><br>
-          - Emirates Development Bank<br>
-          - Dubai Airport<br>
-          - Movenpick Hotel-Grazer<br>
-          - Coterra Cafe<br>
-          - Etihad Rail Office<br>
-        </p>
-        <br>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number: +97145525858<br>
-          - Email address: enquiry@usbcinteriors.com<br>
-          - Website:<a href="https://www.usbcinteriors.com"><strong> WWW.USBCINTERIORS.COM </strong></a><br>
-          - Address: <a
-            href="https://www.google.com/maps/place/USBC+Interiors+%7C+Interior+Fit-Out+Company+in+Dubai+%7C+Interior+Design+Company+in+Dubai./@25.1331706,55.2425265,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f694fa5fd9d8d:0x7c1ec645b832eaa1!8m2!3d25.1331706!4d55.2425265!16s%2Fg%2F11rmt1wfc2?entry=ttu"><strong>
-              Building 28, Street 20 B - Al Quoz Industrial Area 3 - Dubai</strong></a>
-        </p>
-        <br>
-        <p>
-          <strong>Social Media Handles</strong><br>
-          -<a href="https://www.instagram.com/usbcinteriors/">Instagram</a><br>
-          -<a href="https://ae.linkedin.com/company/urban-science-interiors/">Linkedin</a><br>
-          -<a href="https://www.facebook.com/usbcinteriors">Facebook</a><br>
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 9 AM-6 PM<br>
-          - Saturday: 10 AM-5 PM<br>
-          - Sunday: Closed<br>
-      </div>
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number: +97145525858<br>
+        - Email address: enquiry@usbcinteriors.com<br>
+        - Website:<a href="https://www.usbcinteriors.com"><strong> WWW.USBCINTERIORS.COM </strong></a><br>
+        - Address: <a
+          href="https://www.google.com/maps/place/USBC+Interiors+%7C+Interior+Fit-Out+Company+in+Dubai+%7C+Interior+Design+Company+in+Dubai./@25.1331706,55.2425265,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f694fa5fd9d8d:0x7c1ec645b832eaa1!8m2!3d25.1331706!4d55.2425265!16s%2Fg%2F11rmt1wfc2?entry=ttu"><strong>
+            Building 28, Street 20 B - Al Quoz Industrial Area 3 - Dubai</strong></a>
+      </p>
+      <br>
+      <p>
+        <strong>Social Media Handles</strong><br>
+        -<a href="https://www.instagram.com/usbcinteriors/">Instagram</a><br>
+        -<a href="https://ae.linkedin.com/company/urban-science-interiors/">Linkedin</a><br>
+        -<a href="https://www.facebook.com/usbcinteriors">Facebook</a><br>
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 9 AM-6 PM<br>
+        - Saturday: 10 AM-5 PM<br>
+        - Sunday: Closed<br>
     </div>
+  </div>
+  <br>
+
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Muse Interior Design</h3>
     <br>
+    <div>
 
+      <img src="img/pexels-vecislavas-popa-1571460%20(1).jpg" alt="interior design companies in dubai">
 
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Muse Interior Design</h3>
+      <p><br>
+        In the Second Position we consider Muse Interior Design which is one of the leading <a
+          href="https://www.linkedin.com/pulse/7-best-interior-companies-dubai-you-mwk4c"
+          title="Interior Design Companies in Dubai"><strong>interior companies in Dubai</strong></a>, it specializes
+        in office and residential interior design, including kitchen and bathroom design, room design, and much more.
+        Muse Design provides a wide range of services while keeping client pleasure in mind.
+        “Take inspiration from your environment.” When it comes to crafting interior wonders, the Muse Interior Design
+        company in Dubai excels. The interior design work of the experts is rather impressive. In this sense, the
+        designers at muse design are here to help. They assist in condensing your preferences and concepts into a
+        layout that makes the most use of available space.
+      </p>
       <br>
-      <div>
-
-        <img src="img/pexels-vecislavas-popa-1571460%20(1).jpg" alt="interior design companies in dubai">
-
-        <p><br>
-          In the Second Position we consider Muse Interior Design which is one of the leading <a
-            href="https://www.linkedin.com/pulse/7-best-interior-companies-dubai-you-mwk4c"
-            title="Interior Design Companies in Dubai"><strong>interior companies in Dubai</strong></a>, it specializes
-          in office and residential interior design, including kitchen and bathroom design, room design, and much more.
-          Muse Design provides a wide range of services while keeping client pleasure in mind.
-          “Take inspiration from your environment.” When it comes to crafting interior wonders, the Muse Interior Design
-          company in Dubai excels. The interior design work of the experts is rather impressive. In this sense, the
-          designers at muse design are here to help. They assist in condensing your preferences and concepts into a
-          layout that makes the most use of available space.
-        </p>
-        <br>
-        <p>
-          <strong>Reasons to Choose Muse Interior Design</strong><br><br>
-          - Proper Project planning<br>
-          - Expert assessment and investigation of viability<br>
-          - Professional and well-versed liaison with extensive expertise<br>
-          - Better use of resources that save money and time<br>
-          - Vibrant, creative, and superior designs<br>
-          - Anticipations Discover the WOW Factor in real life. Visually stunning<br>
-          <br>As the top interior design firm in the UAE, Muse Design provides all-inclusive interior design solutions.
-          Modern interior design Dubai, United Arab Emirates services are reasonably priced here because several of the
-          top interior design firms in Dubai can produce top-notch solutions.
-        </p>
-        <br>
+      <p>
+        <strong>Reasons to Choose Muse Interior Design</strong><br><br>
+        - Proper Project planning<br>
+        - Expert assessment and investigation of viability<br>
+        - Professional and well-versed liaison with extensive expertise<br>
+        - Better use of resources that save money and time<br>
+        - Vibrant, creative, and superior designs<br>
+        - Anticipations Discover the WOW Factor in real life. Visually stunning<br>
+        <br>As the top interior design firm in the UAE, Muse Design provides all-inclusive interior design solutions.
+        Modern interior design Dubai, United Arab Emirates services are reasonably priced here because several of the
+        top interior design firms in Dubai can produce top-notch solutions.
+      </p>
+      <br>
 
 
 
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number: +971553573290<br>
-          - Email address:info@musedesign.ae<br>
-          - Office Address: Tamani arts Tower – Dubai – United Arab Emirates
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number: +971553573290<br>
+        - Email address:info@musedesign.ae<br>
+        - Office Address: Tamani arts Tower – Dubai – United Arab Emirates
 
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Saturday: 9 AM-7 PM<br>
-          - Sunday: Closed<br>
-      </div>
-
-
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Saturday: 9 AM-7 PM<br>
+        - Sunday: Closed<br>
     </div>
 
 
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Horton Interiors</h3>
-      <br>
-      <div>
-
-        <img src="/img/pexels-vecislavas-popa-1643383%20(1).jpg" alt="interior design companies in dubai">
-
-        <p><br>
-          In the third position we have Horton Interiors. For over 11 years, Horton Interiors, a well-known commercial
-          interior design company in Dubai and Abu Dhabi, United Arab Emirates. They have been creating luxurious
-          residences and offices. They have an outstanding reputation because they have completed many projects in the
-          UAE successfully. They think it's best to house all of their interior design, construction, and fit-out skills
-          under one roof in order to expedite project delivery and simplify their clients' life.
-          <br>
-        <p>
-          <strong>What Differentiates Horton Interiors from other Interior Design companies in dubai?</strong><br><br>
-          - Brand Focused Solutions<br>
-          - Streamlined Operations<br>
-          - Quantifiable ROI<br>
-        </p>
-        <br>
-        <p>
-          <strong>Services Offered by Horton Interiors</strong><br>
-          - Interior Design<br>
-          - Architectural Design<br>
-          - MEP<br>
-          - Renovation<br>
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number: +971 4 388 1163
-          - Email address: info@hortoninteriors.com
-          - Address: Office 230, Al Shafar Investment Building, Sheikh Zayed Road PO Box 390984, Dubai, UAE
-
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 8 AM-5.30 PM<br>
-          - Saturday and Sunday: Closed<br>
-      </div>
+  </div>
 
 
-    </div>
-
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> 4Space Interior Design </h3>
-      <br>
-      <div>
-
-        <img src="/img/Contemporary%20Home%20Decor%20(2).jpg" alt="interior design companies in dubai">
-
-        <p><br>
-          In terms of best <a href="https://www.usbcinteriors.com/interior-companies-in-dubai"
-            title="interior companies in Dubai"><strong>interior companies in Dubai</strong></a>, 4Space comes in at
-          number Fourth. 4Space is not like other high-end interior companies in dubai. They have a committed and
-          creative group of professionals who have a thorough awareness of the particular difficulties associated with
-          luxury design. They consistently provide cutting-edge interior and space designs for almost all applications,
-          including restaurants, and this results in happy customers.
-        </p>
-        <br>
-        <p>
-          <strong>Their Expertise lies on</strong><br><br>
-          - Interior design for homes
-          - Interior design for Shops
-          - Design for restaurants
-          - Interior design for retail
-          - Interior Design for Homes and Villas
-        </p>
-        <br>
-
-        <p>
-          Having over 15 years of experience in the field, 4Space interior design is one of the most reputable
-          businesses in the area. Offering the local business a wide choice of useful experiences, whether for shopping,
-          business and entertainment, or for living areas, their interior designers in Dubai have helped to create
-          surroundings that inspire and impact users. "Innovate your home, innovate yourself with 4Space interior
-          design." In order to help you make an informed choice, their interior designers in Dubai work closely with you
-          to comprehend your needs for space and to clearly enable them to develop an overview of the cost and time
-          frame. Their skilled interior designers collaborate with you to comprehend your wants and requirements for
-          space in a thorough and detailed plan that gives you a general idea of expenses and gives you enough time to
-          make wise judgments.
-        </p>
-        <br>
-        <p>
-          <strong>Services Offered by 4 SpaceInterior Design</strong><br>
-          - Interior Design<br>
-          - Architectural Design<br>
-          - MEP<br>
-          - Renovation<br>
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number: +971 4 438 5537<br>
-          - Email address: info@4space.ae<br>
-          - Address: Unit No. 3508, HDS Business Center, Cluster M, Jumeirah Lake Towers, P.O. Box 334435 Dubai, UAE<br>
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 8.30 AM-6 PM<br>
-          - Saturday and Sunday: Closed<br>
-      </div>
-
-
-    </div>
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> VSHD Designs </h3>
-      <br>
-      <div>
-
-        <img src="/img/office.webp" alt="interior design companies in dubai">
-
-        <p><br>
-          A well-known company that provides exceptionally good interior design services throughout the United Arab
-          Emirates. One of the top interior design firms in Dubai is this one. This business is well-known for offering
-          a wide range of services for both commercial and residential interior design projects. As the top option for a
-          great deal of clients, this business has established benchmarks for several other interior design companies in
-          dubai
-        </p>
-        <br>
-        <p>
-          <strong>Just to give you a brief rundown of the services offered by VSHD Design:</strong><br><br>
-          - Innovative and eye-catching design<br>
-          - Superior home accents<br>
-          - Provides appropriate professional advice<br>
-          - Well-thought-out work approach, outstanding design, and complementary assortments<br>
-          - The design team has the ability to create unique designs<br>
-          - All interior services are provided for exceptionally low prices<br>
-          - Do provide After-Sale service to their clients<br><br>
-          The most well-known aspect of this extraordinarily exceptional company is its unconventional services. The
-          interior design team's exceptional creativity can turn any stark, empty area into a dreamy haven.
-        </p>
-        <br>
-
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number: +971 (0)4 454 2580<br>
-          - Email address: contact@vshd.net<br>
-          - Address: HDS Tower, Suite #1608, Cluster F, JLT P.O. Box 213603, Dubai , UAE<br>
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 9 AM-6 PM<br>
-          - Saturday and Sunday: Closed<br>
-      </div>
-
-    </div>
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Anarchitect </h3>
-      <br>
-      <div>
-
-        <img src="img/apartmenta0.jpg" alt="interior design companies in dubai">
-
-        <p><br>
-          Anarchitect is one of the top interior design firms in the United Arab Emirates (UAE), specializing in
-          creating unique projects for both domestic and international clientele. An architect from Dubai has won
-          multiple accolades for their work in interior design, architecture, and architecture. Their wide range of
-          structures, which span the whole Middle East, include homes, recreational areas, hotels, offices, and cultural
-          institutions. This practice, which was founded in 2013, exhibits architecture at several scales with
-          exceptional materiality, craftsmanship, and detail.
-        </p>
-        <br>
-        <p>
-          <strong>Reasons to Choose ANARCHITECT</strong><br><br>
-          - Provides appropriate professional advice
-          - Each piece is guaranteed to have excellent craftsmanship
-          - A well-thought-out work plan
-          - Vibrant, creative, and superior designs <br><br>
-          All fields of study—architecture, interior design, and other fields—apply equally to produce highly focused
-          structures, areas, and items with exquisitely balanced forms. Anarchitect is One of the top Interior Design
-          Firms in Dubai
-        </p>
-        <br>
-
-        <p>
-          <strong>Services Offered by Anarchitect</strong><br>
-          - Interior Design<br>
-          - Design consultation<br>
-          - Fit-Out<br>
-          - MEP<br>
-          - Renovation<br>
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          * Phone number:+971 (0)4 424 5079 <br>
-          * Email address: info@Anarchitect.com <br>
-          * Address: Office 2902, Marina Plaza Dubai Marina UAE, P.O.Box 5000311
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 9 AM-6 PM<br>
-          - Saturday and Sunday: Closed<br>
-      </div>
-
-
-    </div>
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Artizan Interior Design </h3>
-      <br>
-      <div>
-
-        <img src="/img/pexels-bruce-clark-3701434%20(1).jpg" alt="interior design companies in dubai">
-
-        <p><br>
-          Artizan Interior Design is the next best interior design company in Dubai. For your interior spaces, Artisan
-          Interior Design can offer the most beneficial solutions. It will address all of the common issues that clients
-          have with limited spaces, uneven color schemes, dim lighting, and structural flaws.
-        </p>
-        <br>
-        <p>
-          <strong>Services Offered by Artizan Interior Design</strong><br><br>
-          - Luxurious furnishings include sunbeds, dining tables, office tables, warm chairs, loveseats, and batteries
-          piles that twist<br>
-          - Different lighting systems: employing the latest cutting-edge lighting technology, these systems provide
-          accent, ornamental, workplace, and modern environment lighting<br>
-          - Purposeful designs: Artizan will fulfill all of your dreams, regardless of the type of building you own.
-          Respect Artizan Interior Design alone<br>
-          - Artizan Interior Designing offers the top design services in the world as well as in Dubai, United Arab
-          Emirates. Its many, top-notch, prompt services have supplanted this place on the market and are drawing in
-          well-known Dubai clients<br>
-          - Large-scale projects completed by Interior Design Companies in Dubai have made our clients the most
-          fashionable while also complementing the modernity and beauty of the city<br><br>
-          This level of knowledge has been attained by Artisan's highly skilled staff, which includes engineers,
-          designers, architects, and 3D designers. They can complete any assignment, no matter how big, intricate, or
-          detailed.
-        </p>
-        <br>
-
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number:+971 56 366 0977<br>
-          - Email address: info@artizan.ae<br>
-          - Address: UAE,DUBAI, SHEIKH ZAYED ROAD API BUSINESS SUITES-OFFICE 407
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 9.30 AM-6 PM<br>
-          -Saturday: 9.30 AM-2 PM<br>
-          - Sunday: Closed<br>
-      </div>
-
-    </div>
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Belhasa Interiors </h3>
-      <br>
-      <div>
-
-        <img src="/img/snapedit_170488891034.jpeg" alt="interior design companies in dubai">
-
-        <p><br>
-          Belhasa Interiors is one of the Best Interior Design Companies in Dubai, United Arab Emirates. Belhasa
-          Interiors, is a top Dubai-based studio focused on design, sustainability, and adaptability. With the help of
-          abundant resources available in the area, Belhasa Interiors has designed and managed 200 projects across all
-          regions, including the headquarters of Money Kick, the Mercato Mall Chocolate Bar, Studio 8 on Dubai Mall
-          Fashion Avenue "Belhasa Interiors is a versatile profession that transforms any land into an exquisite
-          creation." Belhasa Interiors, then, is among the biggest and most varied holding companies in the area. One of
-          Dubai's top interior design firms, Belhasa Interiors is renowned for crafting modern, iconic, and organic
-          experiences. With our wide range of design services and entrepreneurial design approach, we can creatively and
-          adaptably fulfill our clients' goals.
-        </p>
-        <br>
-
-
-        <p>
-          <strong>Services Offered by Belhasa Interiors</strong><br>
-          - Interior Design<br>
-          - MEP <br>
-          - Fit-Out<br>
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number: +971 4 557 5508<br>
-          - Email address: contact@belhasainteriors.com<br>
-          - Address: 206, Al Barsha Boutique Building, Dubai
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 9 AM-6 PM<br>
-          - Saturday and Sunday: Closed<br>
-      </div>
-
-    </div>
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Zen Interiors </h3>
-      <br>
-      <div>
-
-        <img src="img/blog/vshd designs.jpg" alt="interior design companies in dubai">
-
-        <p><br>
-          Zen Interiors is an award-winning interior design company in dubai that provides custom interior design
-          services to both home and business clients. More than 900 opulent projects, ranging from chic penthouses in
-          the Burj Khalifa to family villas in Damac Hills, are included in their portfolio. The company's exceptional
-          attention to detail is highlighted by its specialization in modern, contemporary design. Among their honors
-          are those for the best villa and penthouse designs in the Middle East and Africa. Their methodology centers on
-          providing an unparalleled amalgamation of adaptability and robustness, coupled with an ardor for crafting
-          exquisite environments.
-        </p>
-        <br>
-
-
-        <p>
-          <strong>Services Offered by Zen Interiors</strong><br>
-
-          - Bespoke Interior Design<br>
-          - Furniture Solutions<br>
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number:+971 (0)4 340 5050 <br>
-          - Email address: sales@zeninteriors.com <br>
-          - Address: Essa Lutfi Building, No.2, Al Barsha 1, beside Mashreq Metro, Dubai, UAE
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 9 AM-8 PM<br>
-          - Saturday and Sunday: Closed<br>
-      </div>
-
-    </div>
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Algedra </h3>
-      <br>
-      <div>
-
-        <img src="img/blog/algedra.jpg" alt="interior design companies in dubai">
-
-        <p><br>
-          Algedra is a highly successful interior design firm in Dubai that provides a wide range of services, such as
-          interior and landscape design, architecture, and more. Furthermore, their distinct style blends British
-          ingenuity with Greek and Italian forms, as well as Eastern and Western influences. Their work includes both
-          residential and business designs in a variety of distinctive styles. The BELADBONT Resort, an estate in
-          Emirates Hills, an opulent palace in Abu Dhabi, and a mosque in Sharjah are among the most intriguing
-          projects.
-        </p>
-        <br>
-
-
-        <p>
-          <strong>Just to give you a brief rundown of the services offered by Algedra</strong><br>
-
-          - Architectural Design<br>
-          - Interior Design<br>
-          - Exterior Design<br>
-          - Best Landscape Design
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number: +971 4 3639703<br>
-          - Email address: hello@algedra.ae<br>
-          - Address: DUBAI OFFICE LOCATION Office 1501, JBC 3 - Cluster Y Jumeirah Lake Towers, Dubai, UAE<br>
-        </p>
-        <br>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Thursday: 8.30 AM- 7 PM
-          -Friday- 8.30 AM- 5.30 PM
-          -Saturday- 10 AM- 5 PM
-          -Sunday- Closed
-
-      </div>
-
-    </div>
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Horton Interiors</h3>
     <br>
+    <div>
 
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> XBD Collective </h3>
+      <img src="/img/pexels-vecislavas-popa-1643383%20(1).jpg" alt="interior design companies in dubai">
+
+      <p><br>
+        In the third position we have Horton Interiors. For over 11 years, Horton Interiors, a well-known commercial
+        interior design company in Dubai and Abu Dhabi, United Arab Emirates. They have been creating luxurious
+        residences and offices. They have an outstanding reputation because they have completed many projects in the
+        UAE successfully. They think it's best to house all of their interior design, construction, and fit-out skills
+        under one roof in order to expedite project delivery and simplify their clients' life.
+        <br>
+      <p>
+        <strong>What Differentiates Horton Interiors from other Interior Design companies in dubai?</strong><br><br>
+        - Brand Focused Solutions<br>
+        - Streamlined Operations<br>
+        - Quantifiable ROI<br>
+      </p>
       <br>
-      <div>
+      <p>
+        <strong>Services Offered by Horton Interiors</strong><br>
+        - Interior Design<br>
+        - Architectural Design<br>
+        - MEP<br>
+        - Renovation<br>
+      </p>
+      <br>
+      <p>
 
-        <img src="/img/AKIN_6-1000x563%20(1).jpg" alt="interior design companies in dubai">
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number: +971 4 388 1163
+        - Email address: info@hortoninteriors.com
+        - Address: Office 230, Al Shafar Investment Building, Sheikh Zayed Road PO Box 390984, Dubai, UAE
 
-        <p><br>
-          With nearly 50 accolades from some of the world's most prominent awarding bodies, XBD Collective is a
-          well-known architectural and interior design studio headed by well-known Norwegian designer Ellen Søhoel. It
-          is made up of the following brands: Bishop Design Residential, XBD Architecture, and XBD Interior Design. This
-          firm has created a number of exquisite homes with elaborate features and accents mixed with practical
-          components, all while taking a customized approach for each customer. Beautiful villas in Emirates Hills and
-          opulent apartments in the Burj Khalifa, City Walk, and W Hotel Residences on Palm Jumeirah are among the
-          properties in their portfolio as a result.
-        </p>
-        <br>
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 8 AM-5.30 PM<br>
+        - Saturday and Sunday: Closed<br>
+    </div>
 
 
-        <p>
-          <strong>Services offered by XBD Collective</strong><br>
-          In addition to procurement services, XBD Collective provides imaginative master planning, architecture,
-          interior design, and landscape architecture. Their main services include residential projects ranging from
-          multi-story residential buildings and show homes created for developers to private client residential spaces
-          and luxury villas. Our Commercial Division oversees a range of projects, from independent clinics to expansive
-          hospitals, in the areas of boutique and resort hospitality, restaurants, spas, salons, retail, places of
-          worship, and education and healthcare establishments.
-        </p>
-        <br>
-        <p>
+  </div>
 
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number:+971 4 553 5362<br>
-          - Email address:info@xbdesign.com<br>
-          - Address: Suites 213 & 214, Building 08, Dubai Design District, 333253, Dubai, UAE
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 8.30 AM-5.30 PM<br>
-          - Saturday and Sunday: Holiday<br>
-      </div>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> 4Space Interior Design </h3>
+    <br>
+    <div>
+
+      <img src="/img/Contemporary%20Home%20Decor%20(2).jpg" alt="interior design companies in dubai">
+
+      <p><br>
+        In terms of best <a href="https://www.usbcinteriors.com/interior-companies-in-dubai"
+          title="interior companies in Dubai"><strong>interior companies in Dubai</strong></a>, 4Space comes in at
+        number Fourth. 4Space is not like other high-end interior companies in dubai. They have a committed and
+        creative group of professionals who have a thorough awareness of the particular difficulties associated with
+        luxury design. They consistently provide cutting-edge interior and space designs for almost all applications,
+        including restaurants, and this results in happy customers.
+      </p>
+      <br>
+      <p>
+        <strong>Their Expertise lies on</strong><br><br>
+        - Interior design for homes
+        - Interior design for Shops
+        - Design for restaurants
+        - Interior design for retail
+        - Interior Design for Homes and Villas
+      </p>
+      <br>
+
+      <p>
+        Having over 15 years of experience in the field, 4Space interior design is one of the most reputable
+        businesses in the area. Offering the local business a wide choice of useful experiences, whether for shopping,
+        business and entertainment, or for living areas, their interior designers in Dubai have helped to create
+        surroundings that inspire and impact users. "Innovate your home, innovate yourself with 4Space interior
+        design." In order to help you make an informed choice, their interior designers in Dubai work closely with you
+        to comprehend your needs for space and to clearly enable them to develop an overview of the cost and time
+        frame. Their skilled interior designers collaborate with you to comprehend your wants and requirements for
+        space in a thorough and detailed plan that gives you a general idea of expenses and gives you enough time to
+        make wise judgments.
+      </p>
+      <br>
+      <p>
+        <strong>Services Offered by 4 SpaceInterior Design</strong><br>
+        - Interior Design<br>
+        - Architectural Design<br>
+        - MEP<br>
+        - Renovation<br>
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number: +971 4 438 5537<br>
+        - Email address: info@4space.ae<br>
+        - Address: Unit No. 3508, HDS Business Center, Cluster M, Jumeirah Lake Towers, P.O. Box 334435 Dubai, UAE<br>
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 8.30 AM-6 PM<br>
+        - Saturday and Sunday: Closed<br>
+    </div>
+
+
+  </div>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> VSHD Designs </h3>
+    <br>
+    <div>
+
+      <img src="/img/office.webp" alt="interior design companies in dubai">
+
+      <p><br>
+        A well-known company that provides exceptionally good interior design services throughout the United Arab
+        Emirates. One of the top interior design firms in Dubai is this one. This business is well-known for offering
+        a wide range of services for both commercial and residential interior design projects. As the top option for a
+        great deal of clients, this business has established benchmarks for several other interior design companies in
+        dubai
+      </p>
+      <br>
+      <p>
+        <strong>Just to give you a brief rundown of the services offered by VSHD Design:</strong><br><br>
+        - Innovative and eye-catching design<br>
+        - Superior home accents<br>
+        - Provides appropriate professional advice<br>
+        - Well-thought-out work approach, outstanding design, and complementary assortments<br>
+        - The design team has the ability to create unique designs<br>
+        - All interior services are provided for exceptionally low prices<br>
+        - Do provide After-Sale service to their clients<br><br>
+        The most well-known aspect of this extraordinarily exceptional company is its unconventional services. The
+        interior design team's exceptional creativity can turn any stark, empty area into a dreamy haven.
+      </p>
+      <br>
+
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number: +971 (0)4 454 2580<br>
+        - Email address: contact@vshd.net<br>
+        - Address: HDS Tower, Suite #1608, Cluster F, JLT P.O. Box 213603, Dubai , UAE<br>
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 9 AM-6 PM<br>
+        - Saturday and Sunday: Closed<br>
+    </div>
+
+  </div>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Anarchitect </h3>
+    <br>
+    <div>
+
+      <img src="img/apartmenta0.jpg" alt="interior design companies in dubai">
+
+      <p><br>
+        Anarchitect is one of the top interior design firms in the United Arab Emirates (UAE), specializing in
+        creating unique projects for both domestic and international clientele. An architect from Dubai has won
+        multiple accolades for their work in interior design, architecture, and architecture. Their wide range of
+        structures, which span the whole Middle East, include homes, recreational areas, hotels, offices, and cultural
+        institutions. This practice, which was founded in 2013, exhibits architecture at several scales with
+        exceptional materiality, craftsmanship, and detail.
+      </p>
+      <br>
+      <p>
+        <strong>Reasons to Choose ANARCHITECT</strong><br><br>
+        - Provides appropriate professional advice
+        - Each piece is guaranteed to have excellent craftsmanship
+        - A well-thought-out work plan
+        - Vibrant, creative, and superior designs <br><br>
+        All fields of study—architecture, interior design, and other fields—apply equally to produce highly focused
+        structures, areas, and items with exquisitely balanced forms. Anarchitect is One of the top Interior Design
+        Firms in Dubai
+      </p>
+      <br>
+
+      <p>
+        <strong>Services Offered by Anarchitect</strong><br>
+        - Interior Design<br>
+        - Design consultation<br>
+        - Fit-Out<br>
+        - MEP<br>
+        - Renovation<br>
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        * Phone number:+971 (0)4 424 5079 <br>
+        * Email address: info@Anarchitect.com <br>
+        * Address: Office 2902, Marina Plaza Dubai Marina UAE, P.O.Box 5000311
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 9 AM-6 PM<br>
+        - Saturday and Sunday: Closed<br>
+    </div>
+
+
+  </div>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Artizan Interior Design </h3>
+    <br>
+    <div>
+
+      <img src="/img/pexels-bruce-clark-3701434%20(1).jpg" alt="interior design companies in dubai">
+
+      <p><br>
+        Artizan Interior Design is the next best interior design company in Dubai. For your interior spaces, Artisan
+        Interior Design can offer the most beneficial solutions. It will address all of the common issues that clients
+        have with limited spaces, uneven color schemes, dim lighting, and structural flaws.
+      </p>
+      <br>
+      <p>
+        <strong>Services Offered by Artizan Interior Design</strong><br><br>
+        - Luxurious furnishings include sunbeds, dining tables, office tables, warm chairs, loveseats, and batteries
+        piles that twist<br>
+        - Different lighting systems: employing the latest cutting-edge lighting technology, these systems provide
+        accent, ornamental, workplace, and modern environment lighting<br>
+        - Purposeful designs: Artizan will fulfill all of your dreams, regardless of the type of building you own.
+        Respect Artizan Interior Design alone<br>
+        - Artizan Interior Designing offers the top design services in the world as well as in Dubai, United Arab
+        Emirates. Its many, top-notch, prompt services have supplanted this place on the market and are drawing in
+        well-known Dubai clients<br>
+        - Large-scale projects completed by Interior Design Companies in Dubai have made our clients the most
+        fashionable while also complementing the modernity and beauty of the city<br><br>
+        This level of knowledge has been attained by Artisan's highly skilled staff, which includes engineers,
+        designers, architects, and 3D designers. They can complete any assignment, no matter how big, intricate, or
+        detailed.
+      </p>
+      <br>
+
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number:+971 56 366 0977<br>
+        - Email address: info@artizan.ae<br>
+        - Address: UAE,DUBAI, SHEIKH ZAYED ROAD API BUSINESS SUITES-OFFICE 407
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 9.30 AM-6 PM<br>
+        -Saturday: 9.30 AM-2 PM<br>
+        - Sunday: Closed<br>
+    </div>
+
+  </div>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Belhasa Interiors </h3>
+    <br>
+    <div>
+
+      <img src="/img/snapedit_170488891034.jpeg" alt="interior design companies in dubai">
+
+      <p><br>
+        Belhasa Interiors is one of the Best Interior Design Companies in Dubai, United Arab Emirates. Belhasa
+        Interiors, is a top Dubai-based studio focused on design, sustainability, and adaptability. With the help of
+        abundant resources available in the area, Belhasa Interiors has designed and managed 200 projects across all
+        regions, including the headquarters of Money Kick, the Mercato Mall Chocolate Bar, Studio 8 on Dubai Mall
+        Fashion Avenue "Belhasa Interiors is a versatile profession that transforms any land into an exquisite
+        creation." Belhasa Interiors, then, is among the biggest and most varied holding companies in the area. One of
+        Dubai's top interior design firms, Belhasa Interiors is renowned for crafting modern, iconic, and organic
+        experiences. With our wide range of design services and entrepreneurial design approach, we can creatively and
+        adaptably fulfill our clients' goals.
+      </p>
+      <br>
+
+
+      <p>
+        <strong>Services Offered by Belhasa Interiors</strong><br>
+        - Interior Design<br>
+        - MEP <br>
+        - Fit-Out<br>
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number: +971 4 557 5508<br>
+        - Email address: contact@belhasainteriors.com<br>
+        - Address: 206, Al Barsha Boutique Building, Dubai
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 9 AM-6 PM<br>
+        - Saturday and Sunday: Closed<br>
+    </div>
+
+  </div>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Zen Interiors </h3>
+    <br>
+    <div>
+
+      <img src="img/blog/vshd designs.jpg" alt="interior design companies in dubai">
+
+      <p><br>
+        Zen Interiors is an award-winning interior design company in dubai that provides custom interior design
+        services to both home and business clients. More than 900 opulent projects, ranging from chic penthouses in
+        the Burj Khalifa to family villas in Damac Hills, are included in their portfolio. The company's exceptional
+        attention to detail is highlighted by its specialization in modern, contemporary design. Among their honors
+        are those for the best villa and penthouse designs in the Middle East and Africa. Their methodology centers on
+        providing an unparalleled amalgamation of adaptability and robustness, coupled with an ardor for crafting
+        exquisite environments.
+      </p>
+      <br>
+
+
+      <p>
+        <strong>Services Offered by Zen Interiors</strong><br>
+
+        - Bespoke Interior Design<br>
+        - Furniture Solutions<br>
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number:+971 (0)4 340 5050 <br>
+        - Email address: sales@zeninteriors.com <br>
+        - Address: Essa Lutfi Building, No.2, Al Barsha 1, beside Mashreq Metro, Dubai, UAE
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 9 AM-8 PM<br>
+        - Saturday and Sunday: Closed<br>
+    </div>
+
+  </div>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Algedra </h3>
+    <br>
+    <div>
+
+      <img src="img/blog/algedra.jpg" alt="interior design companies in dubai">
+
+      <p><br>
+        Algedra is a highly successful interior design firm in Dubai that provides a wide range of services, such as
+        interior and landscape design, architecture, and more. Furthermore, their distinct style blends British
+        ingenuity with Greek and Italian forms, as well as Eastern and Western influences. Their work includes both
+        residential and business designs in a variety of distinctive styles. The BELADBONT Resort, an estate in
+        Emirates Hills, an opulent palace in Abu Dhabi, and a mosque in Sharjah are among the most intriguing
+        projects.
+      </p>
+      <br>
+
+
+      <p>
+        <strong>Just to give you a brief rundown of the services offered by Algedra</strong><br>
+
+        - Architectural Design<br>
+        - Interior Design<br>
+        - Exterior Design<br>
+        - Best Landscape Design
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number: +971 4 3639703<br>
+        - Email address: hello@algedra.ae<br>
+        - Address: DUBAI OFFICE LOCATION Office 1501, JBC 3 - Cluster Y Jumeirah Lake Towers, Dubai, UAE<br>
+      </p>
+      <br>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Thursday: 8.30 AM- 7 PM
+        -Friday- 8.30 AM- 5.30 PM
+        -Saturday- 10 AM- 5 PM
+        -Sunday- Closed
 
     </div>
-    <br>
 
-    <br>
+  </div>
+  <br>
 
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Perfect Creation Interior LLC
-      </h3>
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> XBD Collective </h3>
+    <br>
+    <div>
+
+      <img src="/img/AKIN_6-1000x563%20(1).jpg" alt="interior design companies in dubai">
+
+      <p><br>
+        With nearly 50 accolades from some of the world's most prominent awarding bodies, XBD Collective is a
+        well-known architectural and interior design studio headed by well-known Norwegian designer Ellen Søhoel. It
+        is made up of the following brands: Bishop Design Residential, XBD Architecture, and XBD Interior Design. This
+        firm has created a number of exquisite homes with elaborate features and accents mixed with practical
+        components, all while taking a customized approach for each customer. Beautiful villas in Emirates Hills and
+        opulent apartments in the Burj Khalifa, City Walk, and W Hotel Residences on Palm Jumeirah are among the
+        properties in their portfolio as a result.
+      </p>
       <br>
-      <div>
-
-        <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.02.10%20PM.jpeg" alt="interior design companies in dubai">
-
-        <p><br>
-          Perfect Creations Interior LLC is a full-service interior design firm in Dubai. with more than 15 years of
-          expertise in the business They are a group of skilled project managers, architects, engineers, and interior
-          designers that provide a full spectrum of interior design services. We collaborate closely with clients to
-          create stunning designs that are customized to their specifications. Before beginning any project, their
-          organization offers design consulting. To better understand the ultimate product of the design, they also
-          provide visual presentations. Providing the most creative, economical, and intelligent design solutions is
-          their passion.
-        </p>
-        <br>
 
 
-        <p>
-          <strong>Services Provided by Perfect Creation Interior LLC</strong><br>
-          - Interior Design<br>
-          - Interior Fit-out Works<br>
-          - Home Renovation Contractor<br>
-          - Joinery Contractor<br>
-          - Furniture Manufacturer<br>
-          - Upholstery Works<br>
-          - Decorative Painting Contractor
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Phone number:+971 50 465 4301<br>
-          - Email address:info@pcinteriors.ae<br>
-          - Address: 26th Street Industrial Area 4, Al Quoz, Dubai, UAE.
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 8 AM-6 PM<br>
-          - Saturday:8 AM-1 PM<br>
-          -Sunday: Holiday<br>
-      </div>
-
-    </div>
-    <br>
-
-
-    <br>
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;">Accouter </h3>
+      <p>
+        <strong>Services offered by XBD Collective</strong><br>
+        In addition to procurement services, XBD Collective provides imaginative master planning, architecture,
+        interior design, and landscape architecture. Their main services include residential projects ranging from
+        multi-story residential buildings and show homes created for developers to private client residential spaces
+        and luxury villas. Our Commercial Division oversees a range of projects, from independent clinics to expansive
+        hospitals, in the areas of boutique and resort hospitality, restaurants, spas, salons, retail, places of
+        worship, and education and healthcare establishments.
+      </p>
       <br>
-      <div>
+      <p>
 
-        <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.05.06%20PM.jpeg" alt="interior design companies in dubai">
-
-        <p><br>
-          Accouter has been providing ultra-luxury interior design and project management on over $1 billion worth of
-          real estate in some of the most desirable places in the world to high-profile clientele since 2012. Because of
-          their recent work at the Royal Atlantis Residences, Accouter is now regarded as one of Dubai's leading
-          interior design brands. Accouter is highly recognized, possessing an ever-growing talent pool and one of the
-          largest residential interior design studios globally. It also offers unparalleled access to supplier chains
-          that feature only the best craftspeople and hand-sourced creative design knowledge.
-        </p>
-        <br>
-
-
-        <p>
-          <strong>Accouter’s Services at Glance</strong><br>
-          - Interior Architecture<br>
-          - Interior Design<br>
-          - Art Acquisition<br>
-          - Project Management
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Contact Number: +971 50 2174 701<br>
-          - Email interiors@accoutardesign.com<br>
-          - Office Address: Platinum Tower, Cluster I, JLT, Dubai, UAE
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 9 AM-6 PM<br>
-          -Saturday and Sunday: Holiday<br>
-      </div>
-
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number:+971 4 553 5362<br>
+        - Email address:info@xbdesign.com<br>
+        - Address: Suites 213 & 214, Building 08, Dubai Design District, 333253, Dubai, UAE
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 8.30 AM-5.30 PM<br>
+        - Saturday and Sunday: Holiday<br>
     </div>
-    <br>
 
-    <br>
+  </div>
+  <br>
 
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;">Inverse Group </h3>
+  <br>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Perfect Creation Interior LLC
+    </h3>
+    <br>
+    <div>
+
+      <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.02.10%20PM.jpeg" alt="interior design companies in dubai">
+
+      <p><br>
+        Perfect Creations Interior LLC is a full-service interior design firm in Dubai. with more than 15 years of
+        expertise in the business They are a group of skilled project managers, architects, engineers, and interior
+        designers that provide a full spectrum of interior design services. We collaborate closely with clients to
+        create stunning designs that are customized to their specifications. Before beginning any project, their
+        organization offers design consulting. To better understand the ultimate product of the design, they also
+        provide visual presentations. Providing the most creative, economical, and intelligent design solutions is
+        their passion.
+      </p>
       <br>
-      <div>
-
-        <img src="/img/sp1.jpg" alt="interior design companies in dubai">
-
-        <p><br>
-          Inverse Group, a full-service design and construction firm, provides a variety of services in the areas of
-          furniture, architecture, landscape design, interior design, and building. At Inverse Group, we think that
-          well-designed environments have the ability to change the places where they work, play, and live. For this
-          reason, they do provide a comprehensive range of services that enable us to address our clients' projects from
-          the beginning to the end, from conceptual design to implementation. Their architecture services encompass a
-          broad spectrum of projects, from residential to commercial. Their interior design services are centered on
-          creating stunning and useful environments that capture the distinct personalities and styles of our customers.
-          Utilizing cutting-edge design tools, they collaborate closely with our clients to fully grasp their
-          requirements and preferences before producing breathtaking 3D renderings that offer a realistic representation
-          of the completed area.To produce distinctive and sustainable landscape designs, we collaborate closely with
-          our customers to fully understand their needs and preferences. They also consider the local climate and
-          natural surroundings.
-
-        </p>
-        <br>
 
 
-        <p>
-          <strong>Services Offered by Inverse Group</strong><br>
-          Inverse Group provides a variety of services in the areas of<br>
-          - Architecture Design<br>
-          - Interior Design<br>
-          - Landscape<br>
-          - Commercial Design
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Contact Number: +971 45 897 606<br>
-          - Email: info@inversekw.com<br>
-          - Office Address: Bayswater Tower 1310, Abraj Street, Business Bay, Dubai, UAE
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Thursday: 9 AM-6 PM<br>
-          - Friday and Saturday: Closed <br>
-          -Sunday: 9 AM-6 PM<br>
-      </div>
-
-    </div>
-    <br>
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> DZ Design </h3>
+      <p>
+        <strong>Services Provided by Perfect Creation Interior LLC</strong><br>
+        - Interior Design<br>
+        - Interior Fit-out Works<br>
+        - Home Renovation Contractor<br>
+        - Joinery Contractor<br>
+        - Furniture Manufacturer<br>
+        - Upholstery Works<br>
+        - Decorative Painting Contractor
+      </p>
       <br>
-      <div>
+      <p>
 
-        <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.16.40%20PM.jpeg" alt="interior design companies in dubai">
-
-        <p><br>
-          DZ Design began as a small architectural and interior design business in 2014, with simply the husband and
-          wife team, Dina and Zain, working across their dining table. DZ Design is an architecture and interior design
-          studio situated in Dubai that works on projects all around the world. Our areas of expertise are projects in
-          the corporate, commercial, luxury residential, and hospitality industries. Our team effortlessly moves from
-          concept to IFC by providing design submittals using AutoCAD, BIM, and 3D MAX.
-        </p>
-        <br>
-
-        <p>
-          <strong>Their Main Services</strong><br>
-          - Interior Design<br>
-          - Architecture Design
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Contact Number: +971 4 514 90456<br>
-          - Email: info@dzdae.com<br>
-          - Office Address: Office 205, Building 6B, Dubai Design District (d3), Dubai, UAE
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 9 AM-6 PM<br>
-          - Saturday and Sunday: Closed <br>
-      </div>
-
+      <p>
+        <strong>Contact Information</strong><br>
+        - Phone number:+971 50 465 4301<br>
+        - Email address:info@pcinteriors.ae<br>
+        - Address: 26th Street Industrial Area 4, Al Quoz, Dubai, UAE.
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 8 AM-6 PM<br>
+        - Saturday:8 AM-1 PM<br>
+        -Sunday: Holiday<br>
     </div>
+
+  </div>
+  <br>
+
+
+  <br>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;">Accouter </h3>
     <br>
+    <div>
 
+      <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.05.06%20PM.jpeg" alt="interior design companies in dubai">
 
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Appello Interiors
-      </h3>
+      <p><br>
+        Accouter has been providing ultra-luxury interior design and project management on over $1 billion worth of
+        real estate in some of the most desirable places in the world to high-profile clientele since 2012. Because of
+        their recent work at the Royal Atlantis Residences, Accouter is now regarded as one of Dubai's leading
+        interior design brands. Accouter is highly recognized, possessing an ever-growing talent pool and one of the
+        largest residential interior design studios globally. It also offers unparalleled access to supplier chains
+        that feature only the best craftspeople and hand-sourced creative design knowledge.
+      </p>
       <br>
-      <div>
-
-        <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.26.07%20PM.jpeg" alt="interior design companies in dubai">
-
-        <p><br>
-          Specializing in both residential and commercial interior design services in dubai, Appello Interiors is one of
-          the best interior design firms in Dubai. From planning and design to installation and finishing, our team of
-          skilled experts completes projects of the highest caliber on schedule and within budget.
-        </p>
-        <br>
-
-        <p>
-          <strong>Why Should You Go for Appello Interiors?</strong><br>
-          To suit your unique requirements, Appello Interiors provides a variety of interior design services. They use
-          the newest technology and materials in everything They do, from design and planning to installation and
-          finishing, to create rooms that are both aesthetically beautiful and useful. Being among the top interior fit
-          out businesses in Dubai, they’re dedicated to providing quality work in all that we do. <br><br>
-          - Interior Fit Out Services<br>
-          - Interior Design Services<br>
-          - Joinery Services<br>
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Contact Number:+971 52 447 4455<br>
-          - Email: info@appellointeriors.com<br>
-          - Office Address: Warehouse No. 19, RKM Compound, Al Quoz Dubai UAE
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Saturday: 8.30 AM-6.30 PM<br>
-          - Sunday: Closed <br>
-      </div>
-
-    </div>
-    <br>
 
 
-
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Antonowich Design </h3>
+      <p>
+        <strong>Accouter’s Services at Glance</strong><br>
+        - Interior Architecture<br>
+        - Interior Design<br>
+        - Art Acquisition<br>
+        - Project Management
+      </p>
       <br>
-      <div>
+      <p>
 
-        <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.08.57%20PM.jpeg" alt="interior design companies in dubai">
-
-        <p><br>
-          Founded by Katrina Antonowich, With a team of highly skilled and experienced architects, engineers, and
-          project managers who are all authorities in their fields, Luxury Antonovich Design has grown into a fully
-          integrated practice offering structural, architectural, interior design, value engineering, fit-out, and
-          project management services on a wide range of prestigious construction projects. One of the Top Interior and
-          Fit-Out Companies in Dubai and Riyadh, Luxury Antonovich Design has consistently exceeded the expectations of
-          its clients by delivering Full Interior Design & Fit-Out & Interior Design High-End Renovation Service,
-          high-quality projects, on time and within budget, while providing a positive return on the clients'
-          investments. This is achieved by prioritizing the clients' commercial and residential goals and upholding a
-          policy of complete transparency and professional integrity.
-
-
-        </p>
-        <br>
-
-        <p>
-          <strong>Why Should You select Antonowich for your Design work?</strong><br>
-          Even though they have experience not only in Dubai but also in Abu Dhabi, Sharjah, and Riyadh, Their major
-          goal is to provide unmatched interior design Dubai experiences in the commercial, residential, and hospitality
-          sectors—all of which combine traditional elegance with contemporary style.
-
-          <br><strong>Services</strong>
-
-          - Interior Design<br>
-          - Engineering Consultant<br>
-          - Joinery<br>
-          - Fitouts
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Contact Number:+971 50 607 2332<br>
-          - Email: info@antonovich-group.ae<br>
-          - Office Address:Al Wasl Road, Al Badaa, Jumeirah, Dubai Unit no. 4, Bldg. Plot No, 333-1103
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Sunday: 9 AM- 10 PM<br>
-      </div>
-
+      <p>
+        <strong>Contact Information</strong><br>
+        - Contact Number: +971 50 2174 701<br>
+        - Email interiors@accoutardesign.com<br>
+        - Office Address: Platinum Tower, Cluster I, JLT, Dubai, UAE
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 9 AM-6 PM<br>
+        -Saturday and Sunday: Holiday<br>
     </div>
+
+  </div>
+  <br>
+
+  <br>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;">Inverse Group </h3>
     <br>
+    <div>
 
+      <img src="/img/sp1.jpg" alt="interior design companies in dubai">
 
-    <br><br>
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Design Infinity </h3>
+      <p><br>
+        Inverse Group, a full-service design and construction firm, provides a variety of services in the areas of
+        furniture, architecture, landscape design, interior design, and building. At Inverse Group, we think that
+        well-designed environments have the ability to change the places where they work, play, and live. For this
+        reason, they do provide a comprehensive range of services that enable us to address our clients' projects from
+        the beginning to the end, from conceptual design to implementation. Their architecture services encompass a
+        broad spectrum of projects, from residential to commercial. Their interior design services are centered on
+        creating stunning and useful environments that capture the distinct personalities and styles of our customers.
+        Utilizing cutting-edge design tools, they collaborate closely with our clients to fully grasp their
+        requirements and preferences before producing breathtaking 3D renderings that offer a realistic representation
+        of the completed area.To produce distinctive and sustainable landscape designs, we collaborate closely with
+        our customers to fully understand their needs and preferences. They also consider the local climate and
+        natural surroundings.
+
+      </p>
       <br>
-      <div>
-
-        <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.10.41%20PM.jpeg" alt="interior design companies in dubai">
-
-        <p><br>
-          Founded in 2012 by architects Pratap Mendonca and Geetha Nayak, Design Infinity catered to the interior design
-          and fit-out sector. We currently employ more than 400 people as a team. With a 30,000 square foot joinery
-          factory located in Dubai Investment Park, subsidiaries in Abu Dhabi and Sharjah, and a head office located in
-          Dubai, Design Infinity has established itself as a prominent name in the interior design sector.
-        </p>
-        <br>
-
-        <p>
-          <strong>Why Should You Choose For Design Infinity?</strong><br>
-          One of the leading providers of turnkey design, fit-out, and furniture solutions in the UAE is Design
-          Infinity. They were established in 2012 and have finished over 700 projects across the UAE. For the
-          commercial, banking, retail, food and beverage, healthcare, and hospitality industries, we are experts in
-          design and fit-out. At Design Infinity, we uphold the highest standards of quality, guarantee the timely
-          completion of projects, and guarantee the complete satisfaction of our clients in the work execution. We take
-          great satisfaction in the fit-out projects and related services we provide, managing all project needs and
-          technical specifications in-house. Our specialty is customizing solutions and completing projects that adhere
-          to the design, material specifications, color scheme, and ethical practices of ID consultants while staying
-          within the budget and schedule allotted.
-
-          <br><strong>Services</strong>
-
-          - Interior Design<br>
-          - Engineering Consultant<br>
-          - Joinery<br>
-          - Fitouts
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Contact Number: +971 4 379 5902<br>
-          - Email: info@design-infinity.com<br>
-          - Office Address:Office No. 212| Hamsah Complex P O Box 62522
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 8 AM-6 PM<br>
-          - Saturday and Sunday: Closed <br>
-      </div>
-
-    </div>
-    <br>
 
 
-    <br><br>
-
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Motif Interiors </h3>
+      <p>
+        <strong>Services Offered by Inverse Group</strong><br>
+        Inverse Group provides a variety of services in the areas of<br>
+        - Architecture Design<br>
+        - Interior Design<br>
+        - Landscape<br>
+        - Commercial Design
+      </p>
       <br>
-      <div>
+      <p>
 
-        <img src="img/villa-renovation2.webp" alt="interior design companies in dubai">
-
-        <p><br>
-          Having worked on over 900 projects in the UAE over the course of more than 11 years of experience, Motif
-          Interior’s turnkey office fit-out solutions guarantee a smooth transformation of your workspace from design to
-          completion. Being a top provider of commercial interior design services, we take great satisfaction in
-          creating designs that are both practical and supportive of your company's objectives.
-
-        </p>
-        <br>
-
-        <p>
-          <br><strong>Services</strong>
-
-          - Design and Build<br>
-          - Office Fit-out<br>
-          - Office Refurbishment<br>
-          - Office Furniture<br>
-
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Contact Number: +971 4 3850 667<br>
-          - Email: info@motifuae.com<br>
-          - Office Address: Mazaya Business Avenue - Tower AA1 - 25th floor - Jumeirah Lake Towers - Dubai
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 8 AM-6 PM<br>
-          - Saturday and Sunday: Closed <br>
-      </div>
-
+      <p>
+        <strong>Contact Information</strong><br>
+        - Contact Number: +971 45 897 606<br>
+        - Email: info@inversekw.com<br>
+        - Office Address: Bayswater Tower 1310, Abraj Street, Business Bay, Dubai, UAE
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Thursday: 9 AM-6 PM<br>
+        - Friday and Saturday: Closed <br>
+        -Sunday: 9 AM-6 PM<br>
     </div>
+
+  </div>
+  <br>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> DZ Design </h3>
     <br>
+    <div>
 
+      <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.16.40%20PM.jpeg" alt="interior design companies in dubai">
 
-    <br><br>
-
-
-
-    <div class="containerbox">
-      <h3 class="playfont wow flipInX animated"
-        style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> NK Interiors </h3>
+      <p><br>
+        DZ Design began as a small architectural and interior design business in 2014, with simply the husband and
+        wife team, Dina and Zain, working across their dining table. DZ Design is an architecture and interior design
+        studio situated in Dubai that works on projects all around the world. Our areas of expertise are projects in
+        the corporate, commercial, luxury residential, and hospitality industries. Our team effortlessly moves from
+        concept to IFC by providing design submittals using AutoCAD, BIM, and 3D MAX.
+      </p>
       <br>
-      <div>
 
-        <img src="img/villa-renovation6.webp" alt="interior design companies in dubai">
+      <p>
+        <strong>Their Main Services</strong><br>
+        - Interior Design<br>
+        - Architecture Design
+      </p>
+      <br>
+      <p>
 
-        <p><br>
-          Owing to their keen awareness of client needs NK Interior was founded by qualified designers with eight years
-          of combined expertise in both architecture and interior design.
-
-
-          concept creation, creation of the project's intricate architectural drawings, top-notch 3D visuals, and
-          turn-key support for the writer.
-          With NK Interior, you may complete a design project 20% faster than your competition because they save you 80%
-          of the time. We always set fresh, contemporary trends because we are upbeat, honest, and innovative. When you
-          are happy, we are happy too
-
-
-        </p>
-        <br>
-
-        <p>
-          <br><strong>Services</strong>
-
-          - Interior Design
-          - Architecture Design
-
-
-        </p>
-        <br>
-        <p>
-
-        <p>
-          <strong>Contact Information</strong><br>
-          - Contact Number: +971 50 187 7644<br>
-          - Email: nk@nkinterior.com.ua<br>
-          - Office Address: Dubai, UAE
-        </p>
-        <p>
-          <strong>Operational Hours</strong><br>
-          - Monday-Friday: 8 AM-6 PM<br>
-          - Saturday and Sunday: Closed <br>
-      </div>
-
+      <p>
+        <strong>Contact Information</strong><br>
+        - Contact Number: +971 4 514 90456<br>
+        - Email: info@dzdae.com<br>
+        - Office Address: Office 205, Building 6B, Dubai Design District (d3), Dubai, UAE
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 9 AM-6 PM<br>
+        - Saturday and Sunday: Closed <br>
     </div>
+
+  </div>
+  <br>
+
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Appello Interiors
+    </h3>
     <br>
+    <div>
+
+      <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.26.07%20PM.jpeg" alt="interior design companies in dubai">
+
+      <p><br>
+        Specializing in both residential and commercial interior design services in dubai, Appello Interiors is one of
+        the best interior design firms in Dubai. From planning and design to installation and finishing, our team of
+        skilled experts completes projects of the highest caliber on schedule and within budget.
+      </p>
+      <br>
+
+      <p>
+        <strong>Why Should You Go for Appello Interiors?</strong><br>
+        To suit your unique requirements, Appello Interiors provides a variety of interior design services. They use
+        the newest technology and materials in everything They do, from design and planning to installation and
+        finishing, to create rooms that are both aesthetically beautiful and useful. Being among the top interior fit
+        out businesses in Dubai, they’re dedicated to providing quality work in all that we do. <br><br>
+        - Interior Fit Out Services<br>
+        - Interior Design Services<br>
+        - Joinery Services<br>
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Contact Number:+971 52 447 4455<br>
+        - Email: info@appellointeriors.com<br>
+        - Office Address: Warehouse No. 19, RKM Compound, Al Quoz Dubai UAE
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Saturday: 8.30 AM-6.30 PM<br>
+        - Sunday: Closed <br>
+    </div>
+
+  </div>
+  <br>
 
 
-    <br><br>
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Antonowich Design </h3>
+    <br>
+    <div>
+
+      <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.08.57%20PM.jpeg" alt="interior design companies in dubai">
+
+      <p><br>
+        Founded by Katrina Antonowich, With a team of highly skilled and experienced architects, engineers, and
+        project managers who are all authorities in their fields, Luxury Antonovich Design has grown into a fully
+        integrated practice offering structural, architectural, interior design, value engineering, fit-out, and
+        project management services on a wide range of prestigious construction projects. One of the Top Interior and
+        Fit-Out Companies in Dubai and Riyadh, Luxury Antonovich Design has consistently exceeded the expectations of
+        its clients by delivering Full Interior Design & Fit-Out & Interior Design High-End Renovation Service,
+        high-quality projects, on time and within budget, while providing a positive return on the clients'
+        investments. This is achieved by prioritizing the clients' commercial and residential goals and upholding a
+        policy of complete transparency and professional integrity.
 
 
-    <br><br>
+      </p>
+      <br>
+
+      <p>
+        <strong>Why Should You select Antonowich for your Design work?</strong><br>
+        Even though they have experience not only in Dubai but also in Abu Dhabi, Sharjah, and Riyadh, Their major
+        goal is to provide unmatched interior design Dubai experiences in the commercial, residential, and hospitality
+        sectors—all of which combine traditional elegance with contemporary style.
+
+        <br><strong>Services</strong>
+
+        - Interior Design<br>
+        - Engineering Consultant<br>
+        - Joinery<br>
+        - Fitouts
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Contact Number:+971 50 607 2332<br>
+        - Email: info@antonovich-group.ae<br>
+        - Office Address:Al Wasl Road, Al Badaa, Jumeirah, Dubai Unit no. 4, Bldg. Plot No, 333-1103
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Sunday: 9 AM- 10 PM<br>
+    </div>
+
+  </div>
+  <br>
+
+
+  <br><br>
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Design Infinity </h3>
+    <br>
+    <div>
+
+      <img src="/img/WhatsApp%20Image%202024-01-24%20at%205.10.41%20PM.jpeg" alt="interior design companies in dubai">
+
+      <p><br>
+        Founded in 2012 by architects Pratap Mendonca and Geetha Nayak, Design Infinity catered to the interior design
+        and fit-out sector. We currently employ more than 400 people as a team. With a 30,000 square foot joinery
+        factory located in Dubai Investment Park, subsidiaries in Abu Dhabi and Sharjah, and a head office located in
+        Dubai, Design Infinity has established itself as a prominent name in the interior design sector.
+      </p>
+      <br>
+
+      <p>
+        <strong>Why Should You Choose For Design Infinity?</strong><br>
+        One of the leading providers of turnkey design, fit-out, and furniture solutions in the UAE is Design
+        Infinity. They were established in 2012 and have finished over 700 projects across the UAE. For the
+        commercial, banking, retail, food and beverage, healthcare, and hospitality industries, we are experts in
+        design and fit-out. At Design Infinity, we uphold the highest standards of quality, guarantee the timely
+        completion of projects, and guarantee the complete satisfaction of our clients in the work execution. We take
+        great satisfaction in the fit-out projects and related services we provide, managing all project needs and
+        technical specifications in-house. Our specialty is customizing solutions and completing projects that adhere
+        to the design, material specifications, color scheme, and ethical practices of ID consultants while staying
+        within the budget and schedule allotted.
+
+        <br><strong>Services</strong>
+
+        - Interior Design<br>
+        - Engineering Consultant<br>
+        - Joinery<br>
+        - Fitouts
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Contact Number: +971 4 379 5902<br>
+        - Email: info@design-infinity.com<br>
+        - Office Address:Office No. 212| Hamsah Complex P O Box 62522
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 8 AM-6 PM<br>
+        - Saturday and Sunday: Closed <br>
+    </div>
+
+  </div>
+  <br>
+
+
+  <br><br>
+
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> Motif Interiors </h3>
+    <br>
+    <div>
+
+      <img src="img/villa-renovation2.webp" alt="interior design companies in dubai">
+
+      <p><br>
+        Having worked on over 900 projects in the UAE over the course of more than 11 years of experience, Motif
+        Interior’s turnkey office fit-out solutions guarantee a smooth transformation of your workspace from design to
+        completion. Being a top provider of commercial interior design services, we take great satisfaction in
+        creating designs that are both practical and supportive of your company's objectives.
+
+      </p>
+      <br>
+
+      <p>
+        <br><strong>Services</strong>
+
+        - Design and Build<br>
+        - Office Fit-out<br>
+        - Office Refurbishment<br>
+        - Office Furniture<br>
+
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Contact Number: +971 4 3850 667<br>
+        - Email: info@motifuae.com<br>
+        - Office Address: Mazaya Business Avenue - Tower AA1 - 25th floor - Jumeirah Lake Towers - Dubai
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 8 AM-6 PM<br>
+        - Saturday and Sunday: Closed <br>
+    </div>
+
+  </div>
+  <br>
+
+
+  <br><br>
+
+
+
+  <div class="containerbox">
+    <h3 class="playfont wow flipInX animated mb-2"
+      style="visibility: visible; animation-delay: 0.5s; animation-name: flipInX;"> NK Interiors </h3>
+    <br>
+    <div>
+
+      <img src="img/villa-renovation6.webp" alt="interior design companies in dubai">
+
+      <p><br>
+        Owing to their keen awareness of client needs NK Interior was founded by qualified designers with eight years
+        of combined expertise in both architecture and interior design.
+
+
+        concept creation, creation of the project's intricate architectural drawings, top-notch 3D visuals, and
+        turn-key support for the writer.
+        With NK Interior, you may complete a design project 20% faster than your competition because they save you 80%
+        of the time. We always set fresh, contemporary trends because we are upbeat, honest, and innovative. When you
+        are happy, we are happy too
+
+
+      </p>
+      <br>
+
+      <p>
+        <br><strong>Services</strong>
+
+        - Interior Design
+        - Architecture Design
+
+
+      </p>
+      <br>
+      <p>
+
+      <p>
+        <strong>Contact Information</strong><br>
+        - Contact Number: +971 50 187 7644<br>
+        - Email: nk@nkinterior.com.ua<br>
+        - Office Address: Dubai, UAE
+      </p>
+      <p>
+        <strong>Operational Hours</strong><br>
+        - Monday-Friday: 8 AM-6 PM<br>
+        - Saturday and Sunday: Closed <br>
+    </div>
+
+  </div>
+  <br>
+
+
+  <br><br>
+
+
+  <br><br>
+</div>
     <h2 class="Containerboxcustomtext">Interior Design Services in Dubai</h2>
     <div class="containerbox">
 
@@ -1992,46 +2000,40 @@
 
 
 
-    <section class="portfolio" style="width:100% !important;">
+    <section class="portfolio section-padding">
       <div class="container">
+        <div class="gallery twsty inf-lit full-width">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="items commercial three-column">
+                <div class="item-img bg-img" data-background="img/k3.webp" loading="lazy">
 
-        <div class="row">
+                  <div class="item-img-overlay"></div>
 
-          <div class="gallery twsty inf-lit full-width" style="position: relative; height: 870px;">
+                </div>
+                <div class="info mt-10">
+                  <h4>Home Renovation</h4>
+                  <span>Dubai</span>
 
-
-
-
-
-
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
-              <div class="item-img bg-img" data-background="img/k3.webp" loading="lazy">
-
-                <div class="item-img-overlay"></div>
-
-              </div>
-              <div class="info mt-10">
-                <h4>Home Renovation</h4>
-                <span>Dubai</span>
-
+                </div>
               </div>
             </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="items commercial three-column">
+                <div class="item-img bg-img" data-background="img/k4.webp" loading="lazy">
 
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
-              <div class="item-img bg-img" data-background="img/k4.webp" loading="lazy">
+                  <div class="item-img-overlay"></div>
 
-                <div class="item-img-overlay"></div>
+                </div>
+                <div class="info mt-10">
+                  <h4>Home Interior Design</h4>
+                  <span>Dubai</span>
 
-              </div>
-              <div class="info mt-10">
-                <h4>Home Interior Design</h4>
-                <span>Dubai</span>
-
+                </div>
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+            <div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/intd112.webp" loading="lazy" width="1200" height="675">
 
                 <div class="item-img-overlay"></div>
@@ -2043,8 +2045,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/7idpbg.webp" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2056,8 +2058,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/dmarina.webp" loading="lazy" width="768" height="600">
 
                 <div class="item-img-overlay"></div>
@@ -2069,8 +2071,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/dmarina1.webp" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2082,8 +2084,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/dmarina2.webp" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2095,8 +2097,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/dhills.webp" width="1920" height="1080" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2108,8 +2110,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/dhills1.webp" width="1920" height="1080" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2121,8 +2123,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/pop1.webp" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2134,8 +2136,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/pop2.webp" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2147,8 +2149,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/pop3.webp" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2160,8 +2162,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/pop4.webp" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2173,8 +2175,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/pop5.webp" loading="lazy">
 
                 <div class="item-img-overlay"></div>
@@ -2186,8 +2188,8 @@
 
               </div>
             </div>
-
-            <div class="items commercial three-column mt-50" style="position: absolute; left: 0px; top: 0px;">
+</div><div class="col-lg-4 col-md-6 mb-3">
+            <div class="items commercial three-column">
               <div class="item-img bg-img" data-background="img/pop6.webp" loading="lazy" width="1000" height="664">
 
                 <div class="item-img-overlay"></div>
@@ -2198,13 +2200,8 @@
                 <span>Dubai</span>
 
               </div>
-            </div>
-
-
-
-
+            </div></div>
           </div>
-
         </div>
       </div>
 
@@ -2396,7 +2393,7 @@
 
     <!-- ==================== Start Blog ==================== -->
 
-    <section class="blog-grid section-padding mb-50 testimonials grid section-padding bg-img parallaxie">
+    <section class="blog-grid section-padding testimonials grid section-padding bg-img parallaxie">
       <div class="container">
         <div class="section-head text-center">
           <div class="row justify-content-center">
@@ -2421,10 +2418,7 @@
         </div>
         <div class="row">
           <!-- <div class="col-lg-12"> -->
-          <div class="testim">
-
-
-
+          <div class="blog-slider">
             <div class="item wow fadeInUp">
               <div class="item wow fadeInUp md-mb50" data-wow-delay=".3s" style="
                     visibility: visible;
@@ -2433,8 +2427,8 @@
                   ">
                 <div class="post-img">
                   <div class="img">
-                    <img src="img/minimalist-interior-style.webp" loading="lazy" alt="interior design company dubai"
-                      style="height:600px !important;" height="300px" />
+                    <img src="img/minimalist-interior-style.webp" loading="lazy" class="height250px" alt="interior design company dubai"
+                       />
                   </div>
                 </div>
                 <div class="cont">
@@ -2459,14 +2453,6 @@
                 </div>
               </div>
             </div>
-
-            <br>
-
-
-
-
-
-
             <div class="item wow fadeInUp">
               <div class="item wow fadeInUp md-mb50" data-wow-delay=".3s" style="
                     visibility: visible;
@@ -2475,8 +2461,8 @@
                   ">
                 <div class="post-img">
                   <div class="img">
-                    <img src="img/natural-material-in-interior-design.webp" loading="lazy"
-                      alt="interior design company dubai" style="height:600px !important;" height="300px" />
+                    <img src="img/natural-material-in-interior-design.webp" class="height250px" loading="lazy"
+                      alt="interior design company dubai" />
                   </div>
                 </div>
                 <div class="cont">
@@ -2498,12 +2484,6 @@
                 </div>
               </div>
             </div>
-
-
-            <br>
-
-
-
             <div class="item wow fadeInUp">
               <div class="item wow fadeInUp md-mb50" data-wow-delay=".3s" style="
                     visibility: visible;
@@ -2513,7 +2493,7 @@
                 <div class="post-img">
                   <div class="img">
                     <img src="img/sustainability-interior-design-1.webp" loading="lazy"
-                      alt="interior design companies in Dubai" style="height:600px !important;" height="300px" />
+                      alt="interior design companies in Dubai" class="height250px"/>
                   </div>
                 </div>
                 <div class="cont">
@@ -2536,15 +2516,6 @@
                 </div>
               </div>
             </div>
-
-
-
-            <br>
-
-
-
-
-
             <div class="item wow fadeInUp">
               <div class="item wow fadeInUp md-mb50" data-wow-delay=".3s" style="
                     visibility: visible;
@@ -2554,7 +2525,7 @@
                 <div class="post-img">
                   <div class="img">
                     <img src="img/interior-design-1.webp" loading="lazy" alt="interior design companies in Dubai"
-                      style="height:600px !important;" height="300px" />
+                    class="height250px"/>
                   </div>
                 </div>
                 <div class="cont">
@@ -2576,10 +2547,6 @@
                 </div>
               </div>
             </div>
-
-            <br>
-
-
             <div class="item wow fadeInUp">
               <div class="item wow fadeInUp md-mb50" data-wow-delay=".3s" style="
                     visibility: visible;
@@ -2588,8 +2555,8 @@
                   ">
                 <div class="post-img">
                   <div class="img">
-                    <img src="img/bedroom-design.webp" loading="lazy" style="height:600px !important;" height="300px"
-                      alt="interior design companies in dubai" />
+                    <img src="img/bedroom-design.webp" loading="lazy"
+                      alt="interior design companies in dubai" class="height250px"/>
                   </div>
                 </div>
                 <div class="cont">
@@ -2612,12 +2579,7 @@
                 </div>
               </div>
             </div>
-
-            <br>
-
-
-
-            <div class="item wow fadeInUp">
+ <div class="item wow fadeInUp">
               <div class="item wow fadeInUp md-mb50" data-wow-delay=".3s" style="
                     visibility: visible;
                     animation-delay: 0.3s;
@@ -2626,7 +2588,7 @@
                 <div class="post-img">
                   <div class="img">
                     <img src="img/kitchendesign2.webp" loading="lazy" alt="interior design companies in Dubai"
-                      style="height:600px !important;" height="300px" />
+                    class="height250px"/>
                   </div>
                 </div>
                 <div class="cont">
@@ -2885,197 +2847,190 @@
 
     <!-- ==================== End Blog ==================== -->
 
+  
+  </main>
+<!-- ==================== Start Footer ==================== -->
 
-    <!-- ==================== Start Footer ==================== -->
+<footer class="main-footer dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3">
+        <div class="item abot">
+          <div class="logo-footer mb-20">
+            <a href="#0" class="logo">
+              <img src="img/logo-light.png" loading="lazy" alt="urban science" />
+            </a>
+          </div>
+          <p>
+            USBC Interiors is specialized in turnkey Interior Fit-outs for residential & commercial spaces in
+            Dubai
+          </p>
+          <div class="social-icon">
+            <a href="https://www.instagram.com/usbcinteriors/" target="blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/usbc-interiors-urban-science-building-contracting"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/usbcinteriors" target="blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/channel/UCCLe6OzXobHpY9xAFlrT0hg"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
 
-    <footer class="main-footer dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="item abot">
-              <div class="logo-footer mb-20">
-                <a href="#0" class="logo">
-                  <img src="img/logo-light.png" loading="lazy" alt="interior design companies in Dubai" width="172"
-                    height="88" />
+      <div class="col-xl-2 col-md-6 offset-xl-1">
+        <div class="item usful-links">
+          <div class="fothead">
+            <h6>Useful Links</h6>
+          </div>
+          <ul>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="about.html">About USBC</a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="projects.html">Impressions</a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="interior-fitout.html">Expertise</a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="supplier.html">Suppliers</a>
+            </li>
+          </ul>
+        </div>
+        <br />
+        <div class="item usful-links">
+          <div class="fothead">
+            <h6>Important Links</h6>
+          </div>
+          <ul>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="https://www.usbcinteriors.com">Turnkey Fit-Out solution in Dubai</a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="https://www.usbcinteriors.com">Restaurant Fit Out Company in Dubai</a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="https://www.usbcinteriors.com">Office Fit Out company In Dubai, UAE</a>
+            </li>
+
+
+          </ul>
+          <div class="usful-links" id="first-part">
+            <ul>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="https://www.usbcinteriors.com">Shop Fit Out company in dubai, UAE</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="https://www.usbcinteriors.com">Best Interior Design company in Dubai,UAE
                 </a>
-              </div>
-              <p>
-                Interior design (design and implementation) for residential and commercial spaces in Dubai is a
-                specialty of USBC Interiors.
-              </p>
-              <div class="social-icon">
-                <a href="https://www.instagram.com/usbcinteriors/" target="blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/usbc-interiors-urban-science-building-contracting"><i
-                    class="fab fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/usbcinteriors" target="blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.youtube.com/channel/UCCLe6OzXobHpY9xAFlrT0hg"><i class="fab fa-youtube"></i></a>
-              </div>
-            </div>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="https://www.usbcinteriors.com">Commercial Fit Out Firm in Dubai</a>
+              </li>
+            </ul>
           </div>
+        </div>
 
-          <div class="col-lg-2 offset-lg-1">
-            <div class="item usful-links">
-              <div class="fothead">
-                <h6>Useful Links</h6>
-              </div>
-              <ul>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="index.html">Home</a>
-                </li>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="about.html">About USBC</a>
-                </li>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="projects.html">Impressions</a>
-                </li>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="interior-fitout.html">Expertise</a>
-                </li>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="supplier.html">Suppliers</a>
-                </li>
-              </ul>
-            </div>
-            <br />
-            <div class="item usful-links">
-              <div class="fothead">
-                <h6>Important Links</h6>
-              </div>
-              <ul>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="https://www.livspace.com/in">Interior Design Companies Dubai</a>
-                </li>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="https://www.decorfacil.com/">Restaurant Interior Design Company in Dubai</a>
-                </li>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="https://bizop.media/article/top-best-interior-design-websites/">Best Inteiror Design
-                    Companies in Dubai</a>
-                </li>
+        <div class="item links">
+          <div class="fothead"></div>
+        </div>
+      </div>
 
-
-              </ul>
-              <div class="usful-links" id="first-part">
-                <ul>
-                  <li>
-                    <i class="fas fa-chevron-right"></i>
-                    <a href="https://projectaz.design/">Interior Design Projects Dubai</a>
-                  </li>
-                  <li>
-                    <i class="fas fa-chevron-right"></i>
-                    <a href="https://usbcinteriors.com/">Home Interior Design company in Dubai,UAE
-                    </a>
-                  </li>
-                  <li>
-                    <i class="fas fa-chevron-right"></i>
-                    <a href="https://interiordesign.net/">Commercial Interior Design in Dubai</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="item links">
-              <div class="fothead"></div>
-            </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="item fotcont">
+          <div class="fothead">
+            <h6>UAE</h6>
           </div>
+          <p>
+            <strong>Call: </strong><a href="tel:+971 4 552 5858"><strong>+971 4 552 5858</strong></a>
+          </p>
+          <p>
+            <strong>Email: </strong><a href="mailto:enquiry@usbcinteriors.com">enquiry@usbcinteriors.com</a><br><a
+              href="mailto:brand@usbcinteriors.com">brand@usbcinteriors.com</a>
+          </p>
+          <p>
+            <strong>Visit:</strong> Building 28, Street 20 B - Al Quoz Industrial Area 3 - Dubai
+          </p>
+        </div>
+        <div class="d-none d-md-block">
 
-          <div class="col-lg-3">
-            <div class="item fotcont">
-              <div class="fothead">
-                <h6>UAE</h6>
-              </div>
-              <p>
-                <strong>Call: </strong><a href="tel:+971 4 552 5858"><strong>+971 4 552 5858</strong></a>
-              </p>
-              <p>
-                <strong>Email: </strong><a href="mailto:enquiry@usbcinteriors.com">enquiry@usbcinteriors.com</a>
-              </p>
-              <p>
-                <strong>Visit:</strong> Building 28, Street 20 B - Al Quoz Industrial Area 3 - Dubai
-              </p>
-            </div>
-            <br>
-            <br>
-            <br>
-            <!-- <br> -->
-            <div class="usful-links" id="second-part">
-              <ul>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="https://www.usbcinteriors.com">Shop Interior design company in dubai, UAE</a>
-                </li>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <a href="https://www.usbcinteriors.com">Best Interior Design company in Dubai,UAE
-                  </a>
-                </li>
+          <br>
+          <br>
+          <br>
+        </div>
+        <!-- <br> -->
+        <div class="usful-links" id="second-part">
+          <ul>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="https://www.usbcinteriors.com">Shop Interior Fit Out company in dubai, UAE</a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="https://www.usbcinteriors.com">Best Interior Design company in Dubai,UAE
+              </a>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <a href="https://www.usbcinteriors.com">Commercial Interior Fit Out Firm in Dubai</a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-              </ul>
-            </div>
+      <div class="col-xl-3">
+        <div class="item fotcont">
+          <div class="fothead">
+            <h6>UNITED KINGDOM</h6>
           </div>
-
-          <div class="col-lg-3">
-            <div class="item fotcont">
-              <div class="fothead">
-                <h6>UNITED KINGDOM</h6>
-              </div>
-              <p><strong>Call: </strong>+44 778 878 9407</p>
-              <p>
-                <strong>Email: </strong><a href="mailto:enquiry@usbcinteriors.com">info@urbansciencebc.co.uk</a>
-              </p>
-              <p>
-                <strong>Visit: </strong> 160 Kemp House City Road London EC1V
-                2NX
-              </p>
-            </div>
+          <p><strong>Email: </strong><a href="mailto:enquiry@usbcinteriors.com">enquiry@usbcinteriors.com</a>
+          </p>
+          <p>
+            <strong>Visit: </strong> 160 Kemp House City Road London EC1V
+            2NX
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sub-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="text-left">
+            <p>© 2024, Urban Science Building Contracting LLC (USBC INTERIORS) </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="text-right">
+            <p>All right reserved.</p>
           </div>
         </div>
       </div>
-      <div class="sub-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="text-left">
-                <p>© 2022, Urban Science Building Contracting</p>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="text-right">
-                <p>All right reserved.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <a href="https://api.whatsapp.com/send?phone=971504094094" style="
-           position: fixed;
-    width: 70px;
-    height: 70px;
-    bottom: 20px;
-    right: 15px;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    z-index: 100;
-      ">
-      <img src="img/wp.webp" loading="lazy" alt="interior design companies in Dubai" width="200" height="200" /></a>
+    </div>
+  </div>
+</footer>
+<a href="https://api.whatsapp.com/send?phone=971504094094" class="whatsapp-icon"><img src="img/wp.gif"
+    loading="lazy" alt="contact urban science" /></a>
 
 
-    <!-- ==================== End Footer ==================== -->
-
+<!-- ==================== End Footer ==================== -->
     <!-- jQuery -->
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- plugins -->
     <script src="js/plugins.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css "
