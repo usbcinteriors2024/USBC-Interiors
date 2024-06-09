@@ -2317,7 +2317,7 @@ article.ttm-blog-classic:hover .ttm-post-featured-wrapper .ttm-post-featured:aft
     -o-animation: bounce 12s linear infinite;
     animation: bounce 12s linear infiniteundefined;
 }
-40% {
+/* 40% {
     -webkit-transform: translateY(-20px);
 }
 60% {
@@ -2328,7 +2328,7 @@ article.ttm-blog-classic:hover .ttm-post-featured-wrapper .ttm-post-featured:aft
 }
 60% {
     transform: translateY(-10px);
-}
+} */
 .page-header {
     border-bottom: none;
     margin: 0;
@@ -2370,6 +2370,8 @@ section.error-404 .page-content p {
 	.ttm-row {
     padding: 100px 0;
 }
+.ttm-row .ttm-service-classic-content :is(h2,h4) a{
+line-height: 1.2;font-size: 30px;}
 .ttm-row.broken-section {
     padding: 0 0;
 }
@@ -5191,10 +5193,10 @@ div:hover > .ttm-box-view-overlay:before {
     padding-left: 15px;
     padding-bottom: 30px;
 }
-.row.ttm-boxes-spacing-25px,
+/* .row.ttm-boxes-spacing-25px,
 .ttm-boxes-spacing-25px {
     margin: 0 5px;
-}
+} */
 .ttm-boxes-spacing-25px .ttm-box-col-wrapper {
     padding-right: 12.5px;
     padding-left: 12.5px;
@@ -6469,3 +6471,11 @@ ul.payment_methods {
 
 
 
+@media (max-width:767px) {
+    .ttm-row.sidebar.ttm-sidebar-left{
+        padding: 40px 0;
+    }
+    .ttm-row .ttm-service-classic-content :is(h2,h4) a{
+font-size: 25px;}
+        
+}

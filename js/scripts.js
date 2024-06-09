@@ -243,13 +243,13 @@ $(function () {
         autoplaySpeed: 12000,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1199,
                 settings: {
                     slidesToShow: 2
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 991,
                 settings: {
                     slidesToShow: 1
                 }
