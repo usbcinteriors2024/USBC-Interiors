@@ -3,6 +3,14 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Allura);
 
+@font-face {
+  font-family: "Mistral";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Mistral"), url("fonts/MISTRAL.woff") format("woff");
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6067,7 +6075,10 @@ img.CustomImg {
   font-size: 30px;
   z-index: 100;
 }
+.whatsapp-icon img{
+  aspect-ratio: auto 640 / 360;
 
+}
 .faq .card:not(:last-child) {
   margin-bottom: 10px;
 }
