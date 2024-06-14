@@ -187,13 +187,13 @@ body {
     top: 75px;
   }
 
-  .bg-video-wrap {
+  /* .bg-video-wrap {
     min-height: 115vh;
-  }
+  } */
 
-  .bg-video-wrap video {
+  /* .bg-video-wrap video {
     height: 110vh;
-  }
+  } */
 }
 
 .dropdown-toggle::after {
